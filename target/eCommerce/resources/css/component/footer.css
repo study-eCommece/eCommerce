@@ -1,0 +1,31 @@
+.secondRowFooter {
+    background: #fde9e9;
+    text-align: center;
+    padding: 15px;
+}
+
+.firstRowFooter {
+    padding: 15px 40px;
+}
+
+.social {
+    float: right;
+}
+
+.social .social-text {
+    text-align: center;
+}
+
+.logoFooter {
+    display: inline-block;
+}
+
+.footer-links {
+    float: left;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+.footer-links .link {
+    margin: 0px 30px;
+}
