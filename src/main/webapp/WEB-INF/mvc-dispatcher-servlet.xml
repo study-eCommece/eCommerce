@@ -31,9 +31,9 @@
           destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url"
-                  value="jdbc:mysql://localhost:3306/ecomm_study_1"/>
-        <property name="username" value="root"/>
-        <property name="password" value="admin"/>
+                  value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_4df04f4eb72b468"/>
+        <property name="username" value="bbf37605481f2a"/>
+        <property name="password" value=""/>
     </bean>
 
     <bean id="hibernate4AnnotatedSessionFactory"
