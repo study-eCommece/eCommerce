@@ -13,6 +13,9 @@
 <link href="<c:url value="/resources/css/component/security.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/profile.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/footer.css"/>" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/css/component/category.css"/>" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/css/component/delivery.css"/>" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/css/component/orderStatus.css"/>" rel="stylesheet" type="text/css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
