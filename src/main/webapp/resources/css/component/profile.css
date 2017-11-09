@@ -1,0 +1,69 @@
+.title {
+    overflow: hidden;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.title:before,
+.title:after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.41);
+    position: relative;
+}
+.title:before {
+    margin-left: -100%;
+    left: -14px;
+}
+.title:after {
+    margin-right: -100%;
+    right: -14px;
+}
+.personal {
+    background-color: rgba(239, 236, 236, 0.81);
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+p{
+    margin-left: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    left: 50%;
+}
+
+.address {
+    background-color: rgba(239, 236, 236, 0.81);
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.ssilka{
+    text-align: center;
+}
+
+button.new {
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    margin: auto;
+    width: 300px;
+    border-radius: 20px;
+    top: 50%;
+    left: 37%;
+}
+
+.table{
+    top: 50%;
+    left: 37%;
+}
