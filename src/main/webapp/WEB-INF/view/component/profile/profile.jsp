@@ -8,20 +8,20 @@
 --%>
 
 
-<div class="title">User information</div>
+<div class="title">Personal Data</div>
 
 <div class="personal">
-    <h1>Personal data</h1>
     <em><strong><table class="table"><tr><td><p>Name: </p></td><td>Vasja</td></tr>
-        <tr><td><p>Login: </p></td><td>Petrov.Vasja</td>
+        <tr><td><p>Login: </p></td><td>Petrov.Vasja</td></tr>
         <tr><td><p>E-mail: </p></td><td>Petrov.Vasja@mail.ru</td></tr>
         <tr><td><p>Phone: </p></td><td>89879524565</td></tr></table></strong></em>
-<button class="new"><a href="#">Change personal data</a></button>
+<button class="bttn"><a href="#">Edit personal data</a></button>
 </div>
 
 <div class="address">
-    <h1>Delivery address</h1>
-    <em><strong><p>Steven Bernson, Attorney at Law 1556 Broadway, suite 416 New York, NY, 10120, USA</p></strong></em>
-    <button class="new"><a href="#">Add address</a></button>
+    <table class="table"><tr><td><em><p>Attorney at Law 1556 Broadway, suite 416 New York, NY, 10120, USA</p></em></td><td><button class="btndt"><a href="#">Edit</a></button><button class ="btndt"><a href="#">Delete</a></button></td></tr>
+                        <tr><td><em><p>11301 West Olympic Boulevard Apt. 100 Los Angeles, CA 90064 USA</p></em></td><td><button class="btndt"><a href="#">Edit</a></button><button class ="btndt"><a href="#">Delete</a></button></td></tr>
+                        <tr><td><em><p>P.O. Box 496, New York, 10003, USA</p></em></td><td><button class="btndt"><a href="#">Edit</a></button><button class ="btndt"><a href="#">Delete</a></button></td></tr></table>
+    <button class="bttn"><a href="#">Add address</a></button>
 </div>
 

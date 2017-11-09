@@ -25,14 +25,15 @@
 .personal {
     background-color: rgba(239, 236, 236, 0.81);
     border-radius: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 h1 {
     text-align: center;
 }
 p{
-    margin-left: 150px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 13pt;
     left: 50%;
@@ -42,13 +43,16 @@ p{
     background-color: rgba(239, 236, 236, 0.81);
     border-radius: 20px;
     padding-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 .ssilka{
     text-align: center;
 }
 
-button.new {
+button.bttn {
     padding: 3px 7px;
     color: #333;
     -moz-border-radius: 5px;
@@ -63,7 +67,24 @@ button.new {
     left: 37%;
 }
 
-.table{
+button.btndt {
+    padding: 3px 7px;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    margin: auto;
+    width: 100px;
+    border-radius: 20px;
     top: 50%;
     left: 37%;
+}
+
+.table{
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+    text-align: center;
 }
