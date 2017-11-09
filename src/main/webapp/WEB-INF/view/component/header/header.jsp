@@ -16,7 +16,7 @@
 <link href="<c:url value="/resources/css/component/category.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/delivery.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/orderStatus.css"/>" rel="stylesheet" type="text/css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="${pageContext.request.contextPath}/resources/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
 
 
 <div>

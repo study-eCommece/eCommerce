@@ -6,7 +6,7 @@
   Time: 23:04
   To change this template use File | Settings | File Templates.
 --%>
-
+<script src="${pageContext.request.contextPath}/resources/js/component/profile.js" type="text/javascript"></script>
 
 <div class="title">Personal Data</div>
 
