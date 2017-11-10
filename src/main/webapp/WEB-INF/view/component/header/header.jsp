@@ -9,6 +9,8 @@
 
 <link href="<c:url value="/resources/bootstrap-3.3.7-dist/css/bootstrap.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/css/component/about.css"/>" rel="stylesheet" type="text/css">
+<link href="<c:url value="/resources/css/component/cart.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/header.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/security.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/profile.css"/>" rel="stylesheet" type="text/css">
@@ -16,7 +18,7 @@
 <link href="<c:url value="/resources/css/component/category.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/delivery.css"/>" rel="stylesheet" type="text/css">
 <link href="<c:url value="/resources/css/component/orderStatus.css"/>" rel="stylesheet" type="text/css">
-<script src="${pageContext.request.contextPath}/resources/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 
 <div>
