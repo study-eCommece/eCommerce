@@ -19,9 +19,9 @@
 </div>
 
 <div class="address">
-    <table class="table"><tr><td><em><p>Attorney at Law 1556 Broadway, suite 416 New York, NY, 10120, USA</p></em></td><td><button class="btndt"><a href="#">Edit</a></button><button class ="btndt"><a href="#">Delete</a></button></td></tr>
-                        <tr><td><em><p>11301 West Olympic Boulevard Apt. 100 Los Angeles, CA 90064 USA</p></em></td><td><button class="btndt"><a href="#">Edit</a></button><button class ="btndt"><a href="#">Delete</a></button></td></tr>
-                        <tr><td><em><p>P.O. Box 496, New York, 10003, USA</p></em></td><td><button class="btndt"><a href="#">Edit</a></button><button class ="btndt"><a href="#">Delete</a></button></td></tr></table>
-    <button class="bttn"><a href="#">Add address</a></button>
+    <table class="table"><tr class="selected"><td><em><p>Attorney at Law 1556 Broadway, suite 416 New York, NY, 10120, USA</p></em></td></tr>
+                        <tr><td><em><p>11301 West Olympic Boulevard Apt. 100 Los Angeles, CA 90064 USA</p></em></td></tr>
+                        <tr><td><em><p>P.O. Box 496, New York, 10003, USA</p></em></td></tr></table>
+    <button class="bttn"><a href="#">Add address</a></button><button class="btndt"><a href="#">Edit</a></button><button class ="btndt"><a href="#">Delete</a></button>
 </div>
 

@@ -8,9 +8,6 @@
 --%>
 
 
-
-<p class="alert-warning" role="alert">
-
     <div class="title">About the security of personal data</div>
     <div class="info">
         <p>Protection of personal data when processing them in an information system that neutralizes the relevance, in accordance with Part 5 of Articles 19 of the Federal Law "On Personal Data".</p>
