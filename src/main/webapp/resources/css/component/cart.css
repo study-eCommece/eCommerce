@@ -54,7 +54,7 @@ td {width: 90px;}
     font-size: 30px;
     margin-bottom: 20px;
 }
-.horLine:before,
+
 .horLine:after {
     content: "";
     display: inline-block;
@@ -64,11 +64,6 @@ td {width: 90px;}
     background-color: rgba(0, 0, 0, 0.41);
     position: relative;
 }
-.horLine:before {
-    margin-left: -100%;
-    left: 0px;
-}
 .horLine:after {
-    margin-right: -100%;
-    right: 0px;
+    margin-right: 100%;
 }

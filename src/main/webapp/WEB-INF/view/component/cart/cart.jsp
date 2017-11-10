@@ -8,30 +8,30 @@
         <br/>
     </table>
     <table class="cart3">
-        <tr><td><div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td></td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
-            <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td><td class="col2"></td></tr>
-            <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td></td><td>
-            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td></td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
-                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: yellow; border-radius: 15px" width="140"/></td><td class="col2"></td></tr>
-                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td></td><td>
-            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td></td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
-                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: black; border-radius: 15px" width="140"/></td><td class="col2"></td></tr>
-                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td></td></tr>
+        <tr><td><div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td> </td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
+            <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td><td class="col2"> </td></tr>
+            <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td> </td><td>
+            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td> </td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
+                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: yellow; border-radius: 15px" width="140"/></td><td class="col2"> </td></tr>
+                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td> </td><td>
+            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td> </td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
+                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: black; border-radius: 15px" width="140"/></td><td class="col2"> </td></tr>
+                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td> </td></tr>
 
-        <tr height="100"></tr>
-        <tr><td><div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td></td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
-            <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td><td class="col2"></td></tr>
-            <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td></td><td>
-            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td></td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
-                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: blue; border-radius: 15px" width="140"/></td><td class="col2"></td></tr>
-                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td></td><td>
-            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td></td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
-                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: red; border-radius: 15px" width="140"/></td><td class="col2"></td></tr>
-                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td></td></tr>
+        <tr height="100"> </tr>
+        <tr><td><div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td> </td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
+            <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td><td class="col2"> </td></tr>
+            <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td> </td><td>
+            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td> </td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
+                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: blue; border-radius: 15px" width="140"/></td><td class="col2"> </td></tr>
+                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td> </td><td>
+            <div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td> </td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
+                <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: red; border-radius: 15px" width="140"/></td><td class="col2"> </td></tr>
+                <tr class="cart2"><td>Цена</td><td class="col2"><input class="col22" type="number"/></td></tr></table></div></div></td><td> </td></tr>
 
     </table>
 
-    <h1 class="horLine"></h1>
+    <h1 class="horLine"> </h1>
     <div align="right">
         <table>
             <tr>
@@ -39,6 +39,6 @@
             </tr>
         </table>
     </div>
-    <h1 class="horLine"></h1>
-    <div align="right"><input  class="buttonsCart"  type="button"  value="Отменить заказ"></input> <input  class="buttonsCart" type="button" value="Оформить заказ"></input></div>
+    <h1 class="horLine"> </h1>
+    <div align="right"><input  class="buttonsCart"  type="button"  value="Отменить заказ"> </input> <input  class="buttonsCart" type="button" value="Оформить заказ"> </input></div>
 </div>
