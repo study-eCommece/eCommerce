@@ -7,6 +7,8 @@
         <div class="cart1">Ваша корзина сейчас пуста. Воспользуйтесь нашим каталогом, чтобы добавить товары.</div>
         <br/>
     </table>
+    <div class="sortMen1" align="right"><table><tr><td>Сортировать</td><td><select class="sortMen2"><div><option>По стоимости</option><option>По дате добавления</option><option>По алфавиту</option></div></select></td></tr></table></div>
+    <br/>
     <table class="cart3">
         <tr><td><div class="cart4"><div class="cart5"><table>    <tr class="cart2"><td> </td><td class="col2"><input class="col21" type="button" value="X"/></td></tr>
             <tr class="cart2"><td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td><td class="col2"> </td></tr>

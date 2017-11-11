@@ -67,3 +67,7 @@ td {width: 90px;}
 .horLine:after {
     margin-right: 100%;
 }
+.sortMen2{
+    border-radius: 15px;
+    background-color: cornsilk;
+}
