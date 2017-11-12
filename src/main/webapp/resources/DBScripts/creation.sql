@@ -32,7 +32,7 @@ CREATE TABLE discounts
 
        (discount_id BIGINT auto_increment primary key,
        name varchar(100),
-       value varchar(100));
+       value smallint);
 
 CREATE TABLE products
 
@@ -40,7 +40,7 @@ CREATE TABLE products
        category_id BIGINT,
        name varchar(1000),
        description varchar(1000),
-       price varchar(100),
+       price int,
        discount_id BIGINT,
        add_date date,
        popular bigint,
@@ -108,7 +108,7 @@ CREATE TABLE sales_orders
        (sales_order_id BIGINT auto_increment primary key,
        user_id bigint,
        creation_date date,
-       lim varchar(100),
+       lim int,
        order_status_id bigint,
        foreign key(user_id) references users(user_id),
        foreign key(order_status_id) references order_statuses(order_status_id));
