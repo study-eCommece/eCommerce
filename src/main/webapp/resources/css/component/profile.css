@@ -42,44 +42,38 @@ p{
 .address {
     background-color: rgba(239, 236, 236, 0.81);
     border-radius: 20px;
-    padding-bottom: 10px;
     padding-bottom: 20px;
     padding-top: 20px;
     margin-bottom: 20px;
 }
 
-.ssilka{
-    text-align: center;
-}
-
-button.bttn {
+.btn {
     padding: 3px 7px;
-    color: #333;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #e8e8e8;
-    position: relative;
-    margin: auto;
-    width: 150px;
     border-radius: 20px;
+    position: relative;
     top: 15px;
     left: 43%;
 }
 
-button.btndt {
-    padding: 3px 7px;
-    color: #333;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+.buttonEditPersonalData,.buttonDeleteAccount,.buttonAddAddress{
+    margin: auto;
+    width: 150px;
+}
+
+.buttonEditAddress,.buttonDeleteAddress {
     border: 1px solid #e8e8e8;
     margin: 5px;
     width: 100px;
     border-radius: 20px;
-    position: relative;
     left: 27%;
     top: -20px;
+}
+
+.buttonDeleteAccount{
+    border: 1px solid #bd0909;
+    background-color: #ff0000;
 }
 
 .table{
