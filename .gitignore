@@ -2,3 +2,4 @@
 .idea
 eCommerce.iml
 target/
+src/main/webapp/WEB-INF/view/html/

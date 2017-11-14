@@ -22,10 +22,30 @@
     <table class="table address"><tr><td><em><p>Attorney at Law 1556 Broadway, suite 416 New York, NY, 10120, USA</p></em></td></tr>
                         <tr><td><em><p>11301 West Olympic Boulevard Apt. 100 Los Angeles, CA 90064 USA</p></em></td></tr>
                         <tr><td><em><p>P.O. Box 496, New York, 10003, USA</p></em></td></tr></table>
-    <button class="btn buttonAddAddress">Add address</button><button class="btn buttonEditAddress">Edit</button><button class ="btn buttonDeleteAddress">Delete</button>
+    <div class="row">
+        <div class="col-md-6">
+            <button class="btn buttonEditAddress">Edit</button>
+        </div>
+        <div class="col-md-6">
+            <button class ="btn buttonDeleteAddress">Delete</button>
+        </div>
+    </div>
+    <button class="btn buttonAddAddress">Add address</button>
+
 </div>
 
 <div class="delete">
     <button class="btn buttonDeleteAccount">Delete Account</button>
 </div>
 
+<jsp:include page="../popups/addAddress/addAddressPopUp.jsp"/>
+
+<script type="text/javascript">
+    $('.popup .close_window, .overlay').click(function (){
+        $('.popup, .overlay').css({'opacity': 0, 'visibility': 'hidden'});
+    });
+    $('button.buttonAddAddress').click(function (e){
+        $('.popup, .overlay').css({'opacity': 1, 'visibility': 'visible'});
+        e.preventDefault();
+    });
+</script>
