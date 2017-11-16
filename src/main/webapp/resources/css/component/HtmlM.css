@@ -1,6 +1,8 @@
 
+/*Html.css*/
+
 /*
-.product1{
+.product1 {
 
     width:200px;
     height:200px;
@@ -43,18 +45,16 @@
     padding-top: 40px;
 }
 
+
 .rotprod{
-    -webkit-transition-duration: 0.8s;
-    -moz-transition-duration: 0.8s;
-    -o-transition-duration: 0.8s;
-    transition-duration: 0.8s;
+
+
 }
+
 
 .rotprod:hover
 {
-    -webkit-transform:rotate(360deg);
-    -moz-transform:rotate(360deg);
-    -o-transform:rotate(360deg);
+
 }
 
 .prod-info-main .product-deatil {
@@ -357,10 +357,10 @@
     position: relative;
     width: 1112px;
     height: 100px;
-    background-color: #fff;
+    background-color: #ef6161; /*#fff*/
     box-shadow: 0 1px 2px rgba(0,0,0,0.25), 0 0 10px rgba(0,0,0,0.1) inset;
     border-radius: 1%     1%     1%     1% /     1%     1%     1%     1%;
-    margin:0 auto;
+    margin-left: 32px;
 
 }
 
@@ -373,6 +373,7 @@
     line-height: 1.25;
     color: #333;
     font-size: 19px;
+
 }
 /*
 .box:before {
@@ -399,5 +400,5 @@
 
 */
 .best goods{
-text-align: center;
+    text-align: center;
 }

@@ -26,7 +26,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/phone2.png" alt="194x228" class="img-responsive rotprod">
+                            <img src="../../../../resources/picture/phone2.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12">
@@ -41,12 +41,15 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>1200 руб</span>
+                                <span>1200$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
+
                         <div class="description">
+
                             <p>A Short product description here </p>
+
                         </div>
                         <div class="product-info smart-form">
                             <div class="row">
@@ -67,8 +70,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/samsung.png" alt="194x228" class="img-responsive rotprod">
-
+                            <img src="../../../../resources/picture/samsung.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12">
@@ -81,7 +83,7 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>50 руб</span>
+                                <span>50$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
@@ -111,7 +113,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/macbook.png" alt="194x228" class="img-responsive rotprod">
+                            <img src="../../../../resources/picture/macbook.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12">
@@ -124,12 +126,12 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>500 руб</span>
+                                <span>500$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
                         <div class="description">
-                            <p>A Short product description here </p>
+                            <p>A Short product description here</p>
                         </div>
                         <div class="product-info smart-form">
                             <div class="row">
@@ -154,10 +156,9 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/phone1.png" alt="194x228" class="img-responsive rotprod">
+                            <img src="../../../../resources/picture/phone1.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
-
                     <div class="col-md-7 col-sm-12 col-xs-12">
                         <div class="product-deatil">
                             <h5 class="name">
@@ -168,7 +169,7 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>1000 руб</span>
+                                <span>1000$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
@@ -217,7 +218,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/phone2.png" alt="194x228" class="img-responsive rotprod">
+                            <img src="../../../../resources/picture/phone2.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12">
@@ -232,7 +233,7 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>1200 руб</span>
+                                <span>1200$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
@@ -242,8 +243,8 @@
                         <div class="product-info smart-form">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a class="btn btn-danger btn-cart"><span>Купить</span></a>
-                                    <a class="btn btn-info"><span>Инфо</span></a>
+                                    <a class="btn btn-danger btn-cart"><span>Buy</span></a>
+                                    <a class="btn btn-info"><span>Info</span></a>
                                 </div>
                             </div>
                         </div>
@@ -258,8 +259,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/samsung.png" alt="194x228" class="img-responsive rotprod">
-
+                            <img src="../../../../resources/picture/samsung.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12">
@@ -272,7 +272,7 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>50 руб</span>
+                                <span>50$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
@@ -282,8 +282,8 @@
                         <div class="product-info smart-form">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a class="btn btn-danger btn-cart"><span>Купить</span></a>
-                                    <a class="btn btn-info"><span>Инфо</span></a>
+                                    <a class="btn btn-danger btn-cart"><span>Buy</span></a>
+                                    <a class="btn btn-info"><span>Info</span></a>
                                 </div>
                                 <div class="col-md-12">
                                     <!-- Рейтинг товара -->
@@ -302,7 +302,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/macbook.png" alt="194x228" class="img-responsive rotprod">
+                            <img src="../../../../resources/picture/macbook.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
                     <div class="col-md-7 col-sm-12 col-xs-12">
@@ -315,7 +315,7 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>500 руб</span>
+                                <span>500$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
@@ -325,8 +325,8 @@
                         <div class="product-info smart-form">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a class="btn btn-danger btn-cart"><span>Купить</span></a>
-                                    <a class="btn btn-info"><span>Инфо</span></a>
+                                    <a class="btn btn-danger btn-cart"><span>Buy</span></a>
+                                    <a class="btn btn-info"><span>Info</span></a>
                                 </div>
                                 <div class="col-md-12">
                                     <!-- Рейтинг товара -->
@@ -345,7 +345,7 @@
                 <div class="row">
                     <div class="col-md-5 col-sm-12 col-xs-12">
                         <div class="product-image">
-                            <img src="../../../../resources/picture/phone1.png" alt="194x228" class="img-responsive rotprod">
+                            <img src="../../../../resources/picture/phone1.png" alt="194x228" class="img-responsive">
                         </div>
                     </div>
 
@@ -359,7 +359,7 @@
                                 </a>
                             </h5>
                             <p class="price-container">
-                                <span>1000 руб</span>
+                                <span>1000$</span>
                             </p>
                             <span class="tag1"></span>
                         </div>
@@ -369,8 +369,8 @@
                         <div class="product-info smart-form">
                             <div class="row">
                                 <div class="col-md-12">
-                                    <a class="btn btn-danger btn-cart"><span>Купить</span></a>
-                                    <a class="btn btn-info"><span>Инфо</span></a>
+                                    <a class="btn btn-danger btn-cart"><span>Buy</span></a>
+                                    <a class="btn btn-info"><span>Info</span></a>
                                 </div>
                                 <div class="col-md-12">
                                     <!-- Рейтинг товара -->
@@ -386,8 +386,3 @@
 </div>
 
 <!--Example-->
-
-
-
-
-
