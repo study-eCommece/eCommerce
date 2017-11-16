@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="eCommerce:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2a2b4a1-ca7a-4fd6-900b-3e818c96c734" name="Default" comment="Подчищаю за собой косяки">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/iPhone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/laptop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/macbook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/phone1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/phone2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/samsung.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/stacpc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/stacpc2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/component/HtmlM.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/component/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/search/search.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/search/search.jsp" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="75">
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="167" column="36" lean-forward="true" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/component/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/search/search.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/footer/footer.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HtmlM.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/component/HtmlM.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+              <folding>
+                <marker date="1510836901758" expanded="true" signature="1821:2926" ph="..." />
+                <marker date="1510836901758" expanded="true" signature="1857:2616" ph="..." />
+                <marker date="1510836901758" expanded="true" signature="1884:1987" ph="..." />
+                <marker date="1510836901758" expanded="true" signature="2020:2344" ph="..." />
+                <marker date="1510836901758" expanded="true" signature="2059:2329" ph="..." />
+                <marker date="1510836901758" expanded="true" signature="2372:2605" ph="..." />
+                <marker date="1510836901758" expanded="true" signature="2644:2919" ph="..." />
+                <marker date="1510836901758" expanded="true" signature="2673:2908" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/main.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/registrationPopUp/registrationPopUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/loginPopUp/loginPopUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/popups/changePassword/changePasswordPopUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/popups/deleteAccount/deleteAccountPopUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/popups/changeInfo/changeInfoPopUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/popups/addAddress/addAddressPopUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/popups/sorting/sortingPopUp.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/AboutController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/CartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/DeliveryController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/ProfileController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/SearchController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/SecurityController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/example/example.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/cart/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/category/category.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/about/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/delivery/delivery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/security/security.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/header.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/component/header.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/footer/footer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/component/footer.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/about.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/cart.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/category.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/delivery.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/example.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/main.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/profile.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/search.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/security.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/profile/profile.jsp" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c9448ea5-6553-4b45-93c0-5589a7ce5369/console.sql" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/component/main.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/component/MyHtml.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/MyHtml/MyHtml.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/MyHtml.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/component/htmlM.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/resources/css/component/HtmlM.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/NewProducts.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/Search.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/HtmlM.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/search/search.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.5.2" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/src/main/webapp/resources/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="24" />
+    <option name="y" value="44" />
+    <option name="width" value="1386" />
+    <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="springMVC" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="picture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="header" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="eCommerce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="eCommerce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ms7654467\IdeaProjects\eCommerce\src\main\webapp\resources\picture" />
+    </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/MainController.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/about/about.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/cart/cart.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/category/category.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/delivery/delivery.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/popups/addAddress/addAddressPopUp.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/profile/profile.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/security/security.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/css/component/security.css</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/DBScripts/creation.sql</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/DBScripts/filling.sql</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/css/component/about.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/css/component/addAddressPopUp.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/css/component/cart.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/css/component/profile.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/js/component/profile.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/AUTHORS.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/bower.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/dist/core.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/dist/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/dist/jquery.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/dist/jquery.min.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/dist/jquery.slim.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/dist/jquery.slim.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/dist/jquery.slim.min.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/external/sizzle/LICENSE.txt</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/external/sizzle/dist/sizzle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/external/sizzle/dist/sizzle.min.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/external/sizzle/dist/sizzle.min.map</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/package.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/.eslintrc.json</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/jsonp.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/load.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/parseXML.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/script.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/var/location.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/var/nonce.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/var/rquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/ajax/xhr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/attributes.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/attributes/attr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/attributes/classes.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/attributes/prop.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/attributes/support.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/attributes/val.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/callbacks.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/DOMEval.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/access.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/init.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/nodeName.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/parseHTML.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/ready-no-deferred.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/ready.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/readyException.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/stripAndCollapse.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/support.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/core/var/rsingleTag.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/addGetHookIf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/adjustCSS.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/curCSS.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/hiddenVisibleSelectors.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/showHide.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/support.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/var/cssExpand.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/var/getStyles.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/var/isHiddenWithinTree.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/var/rmargin.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/var/rnumnonpx.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/css/var/swap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/data/Data.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/data/var/acceptData.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/data/var/dataPriv.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/data/var/dataUser.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/deferred.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/deferred/exceptionHook.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/deprecated.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/dimensions.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/effects.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/effects/Tween.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/effects/animatedSelector.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/event.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/event/ajax.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/event/alias.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/event/focusin.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/event/support.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/event/trigger.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/exports/amd.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/exports/global.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/jquery.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/_evalUrl.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/buildFragment.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/getAll.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/setGlobalEval.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/support.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/var/rcheckableType.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/var/rscriptType.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/var/rtagName.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/manipulation/wrapMap.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/offset.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/queue.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/queue/delay.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/selector-native.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/selector-sizzle.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/selector.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/serialize.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/traversing.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/traversing/findFilter.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/traversing/var/dir.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/traversing/var/rneedsContext.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/traversing/var/siblings.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/ObjectFunctionString.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/arr.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/class2type.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/concat.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/document.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/documentElement.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/fnToString.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/getProto.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/hasOwn.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/indexOf.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/pnum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/push.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/rcssNum.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/rnothtmlwhite.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/slice.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/support.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/var/toString.js</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/webapp/resources/node_modules/jquery/src/wrap.js</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/dataSources.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/vcs.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.search.jsp">
+    <configuration name="Unnamed" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="8000" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="8000" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+    </configuration>
+    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="eCommerce:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_eCommerce_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49572" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="false" />
+        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="clean install" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="eCommerce" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration name="search.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/main" />
+      <option name="UPDATING_POLICY" value="hot-swap-classes" />
+      <deployment>
+        <artifact name="eCommerce:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="search_jsp_eCommerce_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="6618" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="eCommerce:war" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Remote.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.search.jsp" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.search.jsp" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2a2b4a1-ca7a-4fd6-900b-3e818c96c734" name="Default" comment="" />
+      <created>1509123884408</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1509123884408</updated>
+      <workItem from="1509123886742" duration="11418000" />
+      <workItem from="1509136415164" duration="4886000" />
+      <workItem from="1509177973391" duration="7658000" />
+      <workItem from="1509292298121" duration="9391000" />
+      <workItem from="1509302344212" duration="2174000" />
+      <workItem from="1509432033660" duration="10000" />
+      <workItem from="1509788337091" duration="3011000" />
+      <workItem from="1509811799478" duration="18605000" />
+      <workItem from="1509880598735" duration="1644000" />
+      <workItem from="1509882636661" duration="109000" />
+      <workItem from="1509882747926" duration="1617000" />
+      <workItem from="1509890712651" duration="605000" />
+      <workItem from="1509896249990" duration="484000" />
+      <workItem from="1510074673430" duration="51000" />
+      <workItem from="1510075632093" duration="599000" />
+      <workItem from="1510084868631" duration="2549000" />
+      <workItem from="1510087574246" duration="2072000" />
+      <workItem from="1510089681905" duration="1524000" />
+      <workItem from="1510120776641" duration="72000" />
+      <workItem from="1510121498155" duration="12797000" />
+      <workItem from="1510263032267" duration="53920000" />
+      <workItem from="1510681509704" duration="15678000" />
+    </task>
+    <task id="LOCAL-00001" summary="Remote DB access without password">
+      <created>1510088224494</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1510088224494</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Remote DB access without password">
+      <created>1510089331557</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1510089331557</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Подчищаю за собой косяки">
+      <created>1510089523273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1510089523273</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Procfile heroku">
+      <created>1510090150315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510090150315</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="150874000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3280507" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15015975" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22547585" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25945947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18700476" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13312203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26702702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26061493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15015975" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22547585" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25945947" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1881081" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26702702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32864866" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20497803" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remote DB access without password" />
+    <MESSAGE value="Подчищаю за собой косяки" />
+    <MESSAGE value="Procfile heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Procfile heroku" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="19" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/popups/sorting/sortingPopUp.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/Category.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/ExampleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/DeliveryController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/MainController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/SearchController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/SecurityController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/example/example.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/category/category.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/cart/cart.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/about/about.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/delivery/delivery.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/bootstrap-3.3.7-dist/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/about.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/cart.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/category.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/delivery.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/example.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/search.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/security.jsp" />
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/security/security.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/component/footer.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="6" lean-forward="true" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/profile/profile.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/component/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c9448ea5-6553-4b45-93c0-5589a7ce5369/console.sql" />
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="28" lean-forward="false" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/AboutController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/study/springMVC/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/component/MyHtml.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/MyHtml/MyHtml.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/MyHtml.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/page/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" lean-forward="false" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/footer/footer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/component/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding>
+            <marker date="1510836901758" expanded="true" signature="1821:2926" ph="..." />
+            <marker date="1510836901758" expanded="true" signature="1857:2616" ph="..." />
+            <marker date="1510836901758" expanded="true" signature="1884:1987" ph="..." />
+            <marker date="1510836901758" expanded="true" signature="2020:2344" ph="..." />
+            <marker date="1510836901758" expanded="true" signature="2059:2329" ph="..." />
+            <marker date="1510836901758" expanded="true" signature="2372:2605" ph="..." />
+            <marker date="1510836901758" expanded="true" signature="2644:2919" ph="..." />
+            <marker date="1510836901758" expanded="true" signature="2673:2908" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/NewProducts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="482" column="26" lean-forward="true" selection-start-line="482" selection-start-column="26" selection-end-line="482" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/HtmlM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="283" column="18" lean-forward="true" selection-start-line="283" selection-start-column="18" selection-end-line="283" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/Search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/search/search.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/css/component/HtmlM.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="18" column="4" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="167" column="36" lean-forward="true" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
