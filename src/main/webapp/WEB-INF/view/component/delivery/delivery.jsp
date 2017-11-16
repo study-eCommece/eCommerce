@@ -18,29 +18,6 @@
                 Choose a quality service and grow your business with us!
             <p>
         </div>
-
-        <h1 class="text-center">Новости</h1>
-
-        <div class="delivery-news">
-
-            <table class="table">
-                <tbody>
-                    <tr>
-                        <td><a href="#">Открытие новых пунктов выдачи заказов</a></td>
-                        <td>31.10.2017</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Рекордное расширение географии доставки – 1300 пунктов выдачи заказов</a></td>
-                        <td>31.10.2017</td>
-                    </tr>
-                    <tr>
-                        <td><a href="#">Открыты новые пункты выдачи заказов</a></td>
-                        <td>31.10.2017</td>
-                    </tr>
-                </tbody>
-            </table>
-
-        </div>
     </div>
 </div>
 
