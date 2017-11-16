@@ -6,21 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2a2b4a1-ca7a-4fd6-900b-3e818c96c734" name="Default" comment="Подчищаю за собой косяки">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/iPhone.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/laptop.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/macbook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/phone1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/phone2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/samsung.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/stacpc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/picture/stacpc2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/component/HtmlM.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/resources/css/component/main.css" />
+    <list default="true" id="d2a2b4a1-ca7a-4fd6-900b-3e818c96c734" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/header/header.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/search/search.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/search/search.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,8 +34,8 @@
       <file leaf-file-name="main.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="354">
-              <caret line="167" column="36" lean-forward="true" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+            <state relative-caret-position="218">
+              <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -1248,7 +1235,7 @@
       <workItem from="1510120776641" duration="72000" />
       <workItem from="1510121498155" duration="12797000" />
       <workItem from="1510263032267" duration="53920000" />
-      <workItem from="1510681509704" duration="15678000" />
+      <workItem from="1510681509704" duration="17067000" />
     </task>
     <task id="LOCAL-00001" summary="Remote DB access without password">
       <created>1510088224494</created>
@@ -1278,11 +1265,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510090150315</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Сверстал компонент main и компонент search(в 2х вариантах отображения)">
+      <created>1510837822672</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1510837822672</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150874000" />
+    <option name="totallyTimeSpent" value="152263000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1305,7 +1299,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13312203" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5134707" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26702702" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -1396,7 +1390,8 @@
     <MESSAGE value="Remote DB access without password" />
     <MESSAGE value="Подчищаю за собой косяки" />
     <MESSAGE value="Procfile heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Procfile heroku" />
+    <MESSAGE value="Сверстал компонент main и компонент search(в 2х вариантах отображения)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сверстал компонент main и компонент search(в 2х вариантах отображения)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1618,8 +1613,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/component/main/main.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="354">
-          <caret line="167" column="36" lean-forward="true" selection-start-line="167" selection-start-column="36" selection-end-line="167" selection-end-column="36" />
+        <state relative-caret-position="218">
+          <caret line="159" column="0" lean-forward="true" selection-start-line="159" selection-start-column="0" selection-end-line="159" selection-end-column="0" />
           <folding />
         </state>
       </provider>
