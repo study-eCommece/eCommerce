@@ -11,34 +11,35 @@
 {width: 60px;}
 th {width: 90%;}
 td {width: 90px;}
-.cart2{
+.strLen{
     width: 200px;
 }
-.cart3{
+.cartTable{
     margin:auto;
 
 }
-.cart4{
+.cartTableTov{
     border-radius: 10px;
     border:solid 2px;
 }
-.cart5{
+.cartTableTov2{
     border-radius: 10px;
     border:solid 5px white;
 }
-.col2{
+.cel{
     width:  26%;
 }
-.col21{
+.cel2{
+    width: 40px;
+}
+.btnX{
     height: 23px;
     width: 23px;
     float: right;
     border-radius: 20px;
     border: solid 1px red;
 }
-.col22{
-    width: 40px;
-}
+
 .buttonsCart{
     background-color: white;
     width: 200px;
