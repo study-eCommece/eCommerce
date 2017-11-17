@@ -9,13 +9,13 @@ import java.util.List;
  */
 public interface CategoriesDao {
 
-	public void addCategories(Categories categories);
+	void addCategories(Categories categories);
 
-	public void updateCategories(Categories categories);
+	void updateCategories(Categories categories);
 
-	public void deleteCategories(Long id);
+	void deleteCategories(Long id);
 
-	public Categories getCategoriesById(Long id);
+	Categories getCategoriesById(Long id);
 
-	public List<Categories> getCategoriesList();
+	List<Categories> getCategoriesList();
 }

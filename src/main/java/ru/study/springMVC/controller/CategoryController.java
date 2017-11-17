@@ -4,7 +4,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import ru.study.springMVC.model.Categories;
+import ru.study.springMVC.model.Product;
 import ru.study.springMVC.service.CategoriesService;
+import ru.study.springMVC.service.ProductService;
 
 import java.util.List;
 
@@ -55,5 +57,15 @@ public class CategoryController {
     @ResponseBody
     public Categories updateCategories(@RequestBody Categories categories) {
         return categoriesService.updateCategories(categories);
+    }
+
+    //ToDo это для показухи, грохнуть в дальнейшем.
+    @Autowired
+    private ProductService productService;
+
+    @RequestMapping(value = "test", method = RequestMethod.GET)
+    @ResponseBody
+    public List<Product> getProduct() {
+        return productService.getProductsList();
     }
 }

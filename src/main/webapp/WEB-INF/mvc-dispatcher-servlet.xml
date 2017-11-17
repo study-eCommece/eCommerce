@@ -43,6 +43,8 @@
             <list>
                 <value>ru.study.springMVC.model.User</value>
                 <value>ru.study.springMVC.model.Categories</value>
+                <value>ru.study.springMVC.model.Discount</value>
+                <value>ru.study.springMVC.model.Product</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -67,6 +69,14 @@
 
     <bean id="categoriesService" class="ru.study.springMVC.service.impl.CategoriesServiceImpl">
         <property name="categoriesDao" ref="categoriesDao"/>
+    </bean>
+
+    <bean id="productDao" class="ru.study.springMVC.dao.Impl.ProductDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="productService" class="ru.study.springMVC.service.impl.ProductServiceImpl">
+        <property name="productDao" ref="productDao"/>
     </bean>
 
     <tx:annotation-driven transaction-manager="transactionManager"/>
