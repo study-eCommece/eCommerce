@@ -42,6 +42,7 @@
         <property name="annotatedClasses">
             <list>
                 <value>ru.study.springMVC.model.User</value>
+                <value>ru.study.springMVC.model.Categories</value>
             </list>
         </property>
         <property name="hibernateProperties">
@@ -58,6 +59,14 @@
 
     <bean id="userService" class="ru.study.springMVC.service.UserService">
         <property name="userDao" ref="userDao"/>
+    </bean>
+
+    <bean id="categoriesDao" class="ru.study.springMVC.dao.Impl.CategoriesDaoImpl">
+        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
+    </bean>
+
+    <bean id="categoriesService" class="ru.study.springMVC.service.impl.CategoriesServiceImpl">
+        <property name="categoriesDao" ref="categoriesDao"/>
     </bean>
 
     <tx:annotation-driven transaction-manager="transactionManager"/>

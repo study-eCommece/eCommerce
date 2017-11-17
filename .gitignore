@@ -1,5 +1,5 @@
 # Created by .ignore support plugin (hsz.mobi)
-.idea
+.idea/*
 eCommerce.iml
 target/
 src/main/webapp/WEB-INF/view/html/
