@@ -63,9 +63,21 @@ public class CategoryController {
     @Autowired
     private ProductService productService;
 
-    @RequestMapping(value = "test", method = RequestMethod.GET)
+    @RequestMapping(value = "test1", method = RequestMethod.GET)
     @ResponseBody
-    public List<Product> getProduct() {
-        return productService.getProductsList();
+    public List<Product> getProduct1(@RequestParam Long categoryId) {
+        return productService.getProductsList(categoryId);
+    }
+
+    @RequestMapping(value = "test2", method = RequestMethod.GET)
+    @ResponseBody
+    public List<Product> getProduct2(@RequestParam Long categoryId) {
+        return productService.getPopularProductsList(categoryId);
+    }
+
+    @RequestMapping(value = "test3", method = RequestMethod.GET)
+    @ResponseBody
+    public List<Product> getProduct3(@RequestParam Long categoryId) {
+        return productService.getSortedDateProductsList(categoryId);
     }
 }
