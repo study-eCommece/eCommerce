@@ -37,13 +37,13 @@ public class CategoryController {
 
     @RequestMapping(value = "api/category", method = RequestMethod.GET)
     @ResponseBody
-    public Categories getCategories(@RequestParam Long categoryId) {
+    public Categories getCategories(@RequestParam(value = "categoryId") Long categoryId) {
         return categoriesService.getCategoriesById(categoryId);
     }
 
     @RequestMapping(value = "api/deleteCategory", method = RequestMethod.DELETE)
     @ResponseBody
-    public Categories deleteCategories(@RequestParam Long categoryId) {
+    public Categories deleteCategories(@RequestParam(value = "categoryId") Long categoryId) {
         return categoriesService.deleteCategories(categoryId);
     }
 

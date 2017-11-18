@@ -36,7 +36,13 @@ public class CategoriesServiceImpl implements CategoriesService {
 	}
 
 	public Categories getCategoriesById(Long id) {
-		return categoriesDao.getCategoriesById(id);
+		Categories categories = categoriesDao.getCategoriesById(id);
+
+		if (categories.getParentId() == null) {
+			categories.setChild(categoriesDao.getChildList(categories.getId()));
+		}
+
+		return categories;
 	}
 
 	public List<Categories> getCategoriesList() {

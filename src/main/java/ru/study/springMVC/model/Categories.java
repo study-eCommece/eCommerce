@@ -1,6 +1,8 @@
 package ru.study.springMVC.model;
 
 import javax.persistence.*;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Сущность таблицы categories
@@ -22,6 +24,17 @@ public class Categories {
 
 	@Column(name = "description", length = 1000)
 	private String description;
+
+	@Transient
+	transient private List<Categories> child;
+
+	public List<Categories> getChild() {
+		return child;
+	}
+
+	public void setChild(List<Categories> child) {
+		this.child = child;
+	}
 
 	public Categories() {
 	}
