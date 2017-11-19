@@ -20,4 +20,6 @@ public interface CategoriesDao {
 	List<Categories> getCategoriesList();
 
 	List<Categories> getChildList(Long parent_id);
+
+	List<Categories> getParentList();
 }

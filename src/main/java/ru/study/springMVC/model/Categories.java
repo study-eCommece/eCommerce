@@ -2,7 +2,6 @@ package ru.study.springMVC.model;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.Set;
 
 /**
  * Сущность таблицы categories
@@ -76,6 +75,7 @@ public class Categories {
 		return "Categories{" +
 				"id=" + id +
 				", parentId=" + parentId +
+				", child=" + child  +
 				", name='" + name + '\'' +
 				", description='" + description + '\'' +
 				'}';

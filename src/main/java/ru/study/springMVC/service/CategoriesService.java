@@ -18,4 +18,6 @@ public interface CategoriesService {
 	Categories getCategoriesById(Long id);
 
 	List<Categories> getCategoriesList();
+
+	public List<Categories> getTreeList();
 }

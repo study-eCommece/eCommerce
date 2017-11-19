@@ -1,4 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <div class="title">category</div>
 <div class="row">
     <div class="col-md-4">
@@ -7,15 +8,14 @@
             <br>
             <div>
                 <ul>
-                    <li><a href="#">Computer</a></li>
-                    <li><a href="#">Laptop</a></li>
-                    <li><a href="#">Phone</a></li>
-                    <ul>
-                        <li><a href="#">Android</a></li>
-                        <li><a href="#">Window Phone</a></li>
-                        <li><a href="#">Apple</a></li>
-                    </ul>
-                    <li><a href="#">Hardware</a></li>
+                    <c:forEach items="${category}" var="item">
+                        <li><a href="#"><c:out value="${item.name}" /></a></li>
+                        <ul>
+                            <c:forEach items="${item.child}" var="child">
+                                <li><a href="#"><c:out value="${child.name}" /></a></li>
+                            </c:forEach>
+                        </ul>
+                    </c:forEach>
                 </ul>
             </div>
         </div>

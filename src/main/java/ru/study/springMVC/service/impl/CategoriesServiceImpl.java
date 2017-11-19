@@ -48,4 +48,14 @@ public class CategoriesServiceImpl implements CategoriesService {
 	public List<Categories> getCategoriesList() {
 		return categoriesDao.getCategoriesList();
 	}
+
+	public List<Categories> getTreeList() {
+		List<Categories> categoriesList = categoriesDao.getParentList();
+
+		for (Categories categories: categoriesList) {
+			categories.setChild(categoriesDao.getChildList(categories.getId()));
+		}
+
+		return categoriesList;
+	}
 }

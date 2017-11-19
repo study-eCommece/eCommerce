@@ -79,4 +79,18 @@ public class CategoriesDaoImpl implements CategoriesDao {
 
 		return childList;
 	}
+
+	@Transactional
+	@Override
+	public List<Categories> getParentList() {
+		Session session = this.sessionFactory.getCurrentSession();
+
+		String sql = "from ru.study.springMVC.model.Categories";
+		sql += " where parent_id = " + null;
+
+		Query query = session.createQuery(sql);
+		List<Categories> parentList = query.list();
+
+		return parentList;
+	}
 }

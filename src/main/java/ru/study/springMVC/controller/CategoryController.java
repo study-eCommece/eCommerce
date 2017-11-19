@@ -2,6 +2,7 @@ package ru.study.springMVC.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.study.springMVC.model.Categories;
 import ru.study.springMVC.model.Product;
@@ -24,7 +25,8 @@ public class CategoryController {
     }
 
     @RequestMapping(value = "category")
-    public String getCategoriesPage() {
+    public String getCategoriesPage(Model model) {
+        model.addAttribute("category", categoriesService.getTreeList());
 
         return "page/category";
     }
@@ -57,27 +59,5 @@ public class CategoryController {
     @ResponseBody
     public Categories updateCategories(@RequestBody Categories categories) {
         return categoriesService.updateCategories(categories);
-    }
-
-    //ToDo это для показухи, грохнуть в дальнейшем.
-    @Autowired
-    private ProductService productService;
-
-    @RequestMapping(value = "test1", method = RequestMethod.GET)
-    @ResponseBody
-    public List<Product> getProduct1(@RequestParam Long categoryId) {
-        return productService.getProductsList(categoryId);
-    }
-
-    @RequestMapping(value = "test2", method = RequestMethod.GET)
-    @ResponseBody
-    public List<Product> getProduct2(@RequestParam Long categoryId) {
-        return productService.getPopularProductsList(categoryId);
-    }
-
-    @RequestMapping(value = "test3", method = RequestMethod.GET)
-    @ResponseBody
-    public List<Product> getProduct3(@RequestParam Long categoryId) {
-        return productService.getSortedDateProductsList(categoryId);
     }
 }
