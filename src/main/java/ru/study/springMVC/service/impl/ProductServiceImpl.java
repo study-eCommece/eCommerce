@@ -1,5 +1,6 @@
 package ru.study.springMVC.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.study.springMVC.dao.ProductDao;
 import ru.study.springMVC.model.Product;
@@ -14,6 +15,7 @@ public class ProductServiceImpl implements ProductService {
 
 	private ProductDao productDao;
 
+	@Autowired
 	public void setProductDao(ProductDao productDao) {
 		this.productDao = productDao;
 	}

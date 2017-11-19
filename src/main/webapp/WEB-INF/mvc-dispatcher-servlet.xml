@@ -63,22 +63,6 @@
         <property name="userDao" ref="userDao"/>
     </bean>
 
-    <bean id="categoriesDao" class="ru.study.springMVC.dao.Impl.CategoriesDaoImpl">
-        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
-    </bean>
-
-    <bean id="categoriesService" class="ru.study.springMVC.service.impl.CategoriesServiceImpl">
-        <property name="categoriesDao" ref="categoriesDao"/>
-    </bean>
-
-    <bean id="productDao" class="ru.study.springMVC.dao.Impl.ProductDaoImpl">
-        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
-    </bean>
-
-    <bean id="productService" class="ru.study.springMVC.service.impl.ProductServiceImpl">
-        <property name="productDao" ref="productDao"/>
-    </bean>
-
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
     <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">

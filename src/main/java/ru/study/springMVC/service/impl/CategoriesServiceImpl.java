@@ -1,5 +1,6 @@
 package ru.study.springMVC.service.impl;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import ru.study.springMVC.dao.CategoriesDao;
 import ru.study.springMVC.model.Categories;
@@ -12,6 +13,7 @@ public class CategoriesServiceImpl implements CategoriesService {
 
 	private CategoriesDao categoriesDao;
 
+	@Autowired
 	public void setCategoriesDao(CategoriesDao categoriesDao) {
 		this.categoriesDao = categoriesDao;
 	}
