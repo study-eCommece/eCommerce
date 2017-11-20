@@ -19,7 +19,7 @@ DROP TABLE IF EXISTS roles;
 DROP TABLE IF EXISTS order_statuses;
 
 CREATE TABLE categories
-       (category_id BIGINT primary key auto_increment,
+       (category_id BIGINT primary key,
        parent_id BIGINT,
        name varchar(100),
        description varchar(1000));
