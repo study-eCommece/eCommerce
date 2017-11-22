@@ -27,7 +27,7 @@
 .main_container{
 
     margin-left: 12px ;
-
+    margin-right: 20px;
 }
 
 /* Лист товаров */
@@ -397,11 +397,12 @@
 .best goods{
     text-align: center;
 }
-.title1 {
+.title {
     overflow: hidden;
     text-align: center;
     font-size: 30px;
     margin-bottom: 20px;
+
 }
 .title:before,
 .title:after {
