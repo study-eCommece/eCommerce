@@ -11,11 +11,13 @@
 
 <div class="alert-warning" role="alert"></div>
 
-<div class="container">
-
-    <div class="alert-warning" role="alert"></div>
+<div class="main_container">
 
     <h1 class="title"> Novelties </h1>
+
+    <div class="container">
+
+    <div class="alert-warning" role="alert"></div>
 
     <div class = "backspace"> <br> </div>
 
@@ -69,11 +71,12 @@
 <!-- end product -->
 
 <!--Example-->
-<div class="container">
-
-    <div class="alert-warning" role="alert"></div>
 
     <h1 class="title"> Best goods </h1>
+
+    <div class="container">
+
+    <div class="alert-warning" role="alert"></div>
 
     <div class = "backspace"> <br> </div>
 
@@ -127,5 +130,5 @@
         </c:forEach>
     </div>
 </div>
-
+</div>
 <!--Example-->

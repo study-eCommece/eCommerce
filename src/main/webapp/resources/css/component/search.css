@@ -1,32 +1,8 @@
+/*Main.css*/
 
-/*Html.css*/
+.main_containers{
 
-/*
-.product1 {
-
-    width:200px;
-    height:200px;
-    color: #0000;
-    background:#FF7F00;
-    border: 1px solid darkslategray;
-    border-radius: 10px;
-}
-.photo1{
-
-    width: 130px;
-    height: 85px;
-    color: #0000;
-    /*background:#FF7F00;
-    border: 1px solid darkslategray;
-    border-radius: 10px;
-    padding-left: 30px;
-
-}
-*/
-
-.main_container{
-
-    margin-left: 12px ;
+    margin-left: 13px ;
     margin-right: 20px;
 }
 
@@ -346,7 +322,6 @@
 
     text-align: center;
 }
-
 .box {
 
     position: relative;
