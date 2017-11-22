@@ -18,7 +18,7 @@ public interface ProductDao {
 
 	List<Product> getProductsList(Long categoryId);
 
-	List<Product> getProductsListByPopular(Long categoryId, Long popular);
+	List<Product> getProductsListByPopular(Long popular);
 
-	List<Product> getProductsListOrderByAddDate(Long categoryId);
+	List<Product> getProductsListOrderByAddDate();
 }

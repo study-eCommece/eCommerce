@@ -19,7 +19,7 @@ public interface ProductService {
 
 	List<Product> getProductsList(Long categoryId);
 
-	List<Product> getPopularProductsList(Long categoryId);
+	List<Product> getPopularProductsList();
 
-	List<Product> getSortedDateProductsList(Long categoryId);
+	List<Product> getSortedDateProductsList();
 }

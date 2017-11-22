@@ -15,7 +15,7 @@ public class Product {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "category_id")
 	private Categories category;
 
@@ -28,7 +28,7 @@ public class Product {
 	@Column(name = "price")
 	private Integer price;
 
-	@ManyToOne
+	@ManyToOne(fetch = FetchType.LAZY)
 	@JoinColumn(name = "discount_id")
 	private Discount discount;
 

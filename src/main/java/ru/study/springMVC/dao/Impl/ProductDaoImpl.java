@@ -74,12 +74,11 @@ public class ProductDaoImpl implements ProductDao {
 
 	@Transactional
 	@Override
-	public List<Product> getProductsListByPopular(Long categoryId, Long popular) {
+	public List<Product> getProductsListByPopular(Long popular) {
 		Session session = this.sessionFactory.getCurrentSession();
 
 		String sql = "from ru.study.springMVC.model.Product";
-		sql += " where category_id = " + categoryId;
-		sql += " and popular = " + popular;
+		sql += " where popular = " + popular;
 
 		Query query = session.createQuery(sql);
 		List<Product> productsList = query.list();
@@ -89,14 +88,14 @@ public class ProductDaoImpl implements ProductDao {
 
 	@Transactional
 	@Override
-	public List<Product> getProductsListOrderByAddDate(Long categoryId) {
+	public List<Product> getProductsListOrderByAddDate() {
 		Session session = this.sessionFactory.getCurrentSession();
 
 		String sql = "from ru.study.springMVC.model.Product";
-		sql += " where category_id = " + categoryId;
 		sql += " order by add_date DESC";
 
 		Query query = session.createQuery(sql);
+		query.setMaxResults(4);
 		List<Product> productsList = query.list();
 
 		return productsList;

@@ -54,12 +54,12 @@ public class ProductServiceImpl implements ProductService {
 	}
 
 	@Override
-	public List<Product> getPopularProductsList(Long categoryId) {
-		return productDao.getProductsListByPopular(categoryId, POPULAR);
+	public List<Product> getPopularProductsList() {
+		return productDao.getProductsListByPopular(POPULAR);
 	}
 
 	@Override
-	public List<Product> getSortedDateProductsList(Long categoryId) {
-		return productDao.getProductsListOrderByAddDate(categoryId);
+	public List<Product> getSortedDateProductsList() {
+		return productDao.getProductsListOrderByAddDate();
 	}
 }
