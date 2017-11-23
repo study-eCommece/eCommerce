@@ -26,7 +26,7 @@ public class CategoryController {
 
     @RequestMapping(value = "category")
     public String getCategoriesPage(Model model) {
-        model.addAttribute("category", categoriesService.getTreeList());
+        model.addAttribute("categoryList", categoriesService.getTreeList());
 
         return "page/category";
     }

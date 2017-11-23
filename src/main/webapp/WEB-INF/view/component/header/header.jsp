@@ -29,11 +29,9 @@
         </div>
         <div class="categories">
             <ul class="nav nav-pills">
-                <li><a href="#">Computers</a></li>
-                <li><a href="#">Laptops</a></li>
-                <li><a href="#">Screens</a></li>
-                <li><a href="#">Software</a></li>
-                <li><a href="#">Accessories</a></li>
+                <c:forEach items="${categoryList}" var="category">
+                    <li><a href="#">${category.name}</a></li>
+                </c:forEach>
             </ul>
         </div>
         <div class="icons">

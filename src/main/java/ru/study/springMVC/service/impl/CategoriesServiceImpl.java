@@ -60,4 +60,8 @@ public class CategoriesServiceImpl implements CategoriesService {
 
 		return categoriesList;
 	}
+
+	public List<Categories> getParentCategoryList() {
+		return categoriesDao.getParentList();
+	}
 }

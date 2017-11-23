@@ -81,6 +81,7 @@ public class ProductDaoImpl implements ProductDao {
 		sql += " where popular = " + popular;
 
 		Query query = session.createQuery(sql);
+		query.setMaxResults(4);
 		List<Product> productsList = query.list();
 
 		return productsList;

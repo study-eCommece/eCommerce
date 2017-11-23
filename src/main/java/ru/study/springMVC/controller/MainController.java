@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import ru.study.springMVC.service.CategoriesService;
 import ru.study.springMVC.service.ProductService;
 
 /**
@@ -15,9 +16,13 @@ public class MainController {
     @Autowired
     private ProductService productService;
 
+    @Autowired
+    private CategoriesService categoriesService;
+
     @RequestMapping({"/", "/index", "/main"})
     public String getMainPage(Model model) {
 
+        model.addAttribute("categoryList", categoriesService.getParentCategoryList());
         model.addAttribute("newProductList", productService.getSortedDateProductsList());
         model.addAttribute("popProductList", productService.getPopularProductsList());
 

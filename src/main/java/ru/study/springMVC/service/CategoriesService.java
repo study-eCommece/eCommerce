@@ -19,5 +19,7 @@ public interface CategoriesService {
 
 	List<Categories> getCategoriesList();
 
-	public List<Categories> getTreeList();
+	List<Categories> getTreeList();
+
+	List<Categories> getParentCategoryList();
 }

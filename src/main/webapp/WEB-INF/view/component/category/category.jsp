@@ -8,10 +8,10 @@
             <br>
             <div>
                 <ul>
-                    <c:forEach items="${category}" var="item">
-                        <li><a href="#"><c:out value="${item.name}" /></a></li>
+                    <c:forEach items="${categoryList}" var="category">
+                        <li><a href="#"><c:out value="${category.name}" /></a></li>
                         <ul>
-                            <c:forEach items="${item.child}" var="child">
+                            <c:forEach items="${category.child}" var="child">
                                 <li><a href="#"><c:out value="${child.name}" /></a></li>
                             </c:forEach>
                         </ul>
