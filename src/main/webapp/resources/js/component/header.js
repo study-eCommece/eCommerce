@@ -1,0 +1,36 @@
+$(document).ready(function () {
+
+    getCategoryParentList();
+
+    var json = '';
+
+    function getCategoryParentList() {
+        $.ajax({
+            type: "GET",
+            url: window.location.origin + '/api/categoryParentList',
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            cache: false,
+            success: function (categoryList) {
+                fillList(categoryList);
+            },
+            error: function (e) {
+                alert(e.responseText);
+            }
+        });
+    }
+
+    function fillList(categoryList) {
+        var list = '<ul class="nav nav-pills">';
+
+        categoryList.forEach( function (category) {
+            list += '<li><a href="#">' +
+                category.name +
+                '</a></li>'
+        });
+
+        list += '</ul>';
+
+        $('.categories').html(list);
+    }
+});

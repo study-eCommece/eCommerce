@@ -60,4 +60,10 @@ public class CategoryController {
     public Categories updateCategories(@RequestBody Categories categories) {
         return categoriesService.updateCategories(categories);
     }
+
+    @RequestMapping(value = "api/categoryParentList")
+    @ResponseBody
+    public List<Categories> getCategoryParentList() {
+        return categoriesService.getParentCategoryList();
+    }
 }

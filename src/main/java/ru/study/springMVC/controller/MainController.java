@@ -16,13 +16,9 @@ public class MainController {
     @Autowired
     private ProductService productService;
 
-    @Autowired
-    private CategoriesService categoriesService;
-
     @RequestMapping({"/", "/index", "/main"})
     public String getMainPage(Model model) {
 
-        model.addAttribute("categoryList", categoriesService.getParentCategoryList());
         model.addAttribute("newProductList", productService.getSortedDateProductsList());
         model.addAttribute("popProductList", productService.getPopularProductsList());
 
