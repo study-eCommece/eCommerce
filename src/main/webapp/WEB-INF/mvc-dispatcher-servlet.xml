@@ -42,7 +42,7 @@
         <property name="annotatedClasses">
             <list>
                 <value>ru.study.springMVC.model.User</value>
-                <value>ru.study.springMVC.model.Categories</value>
+                <value>ru.study.springMVC.model.Category</value>
                 <value>ru.study.springMVC.model.Discount</value>
                 <value>ru.study.springMVC.model.Product</value>
             </list>

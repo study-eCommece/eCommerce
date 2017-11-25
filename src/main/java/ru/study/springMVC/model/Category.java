@@ -8,7 +8,7 @@ import java.util.List;
  */
 @Entity
 @Table(name = "categories")
-public class Categories {
+public class Category {
 
 	@Id
 	@Column(name = "category_id")
@@ -25,17 +25,17 @@ public class Categories {
 	private String description;
 
 	@Transient
-	transient private List<Categories> child;
+	transient private List<Category> child;
 
-	public List<Categories> getChild() {
+	public List<Category> getChild() {
 		return child;
 	}
 
-	public void setChild(List<Categories> child) {
+	public void setChild(List<Category> child) {
 		this.child = child;
 	}
 
-	public Categories() {
+	public Category() {
 	}
 
 	public Long getId() {
@@ -72,7 +72,7 @@ public class Categories {
 
 	@Override
 	public String toString() {
-		return "Categories{" +
+		return "Category{" +
 				"id=" + id +
 				", parentId=" + parentId +
 				", child=" + child  +
