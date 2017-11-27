@@ -4,7 +4,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import ru.study.springMVC.model.Product;
 import ru.study.springMVC.service.ProductService;
+
+import java.util.List;
 
 /**
  * Created by Anton on 04.11.2017.
@@ -22,5 +26,17 @@ public class MainController {
         model.addAttribute("popProductList", productService.getPopularProductsList());
 
         return "page/main";
+    }
+
+    @RequestMapping("api/newProductList")
+    @ResponseBody
+    public List<Product> getNewProductList() {
+        return productService.getSortedDateProductsList();
+    }
+
+    @RequestMapping("api/popProductList")
+    @ResponseBody
+    public List<Product> getPopProductList() {
+        return productService.getPopularProductsList();
     }
 }
