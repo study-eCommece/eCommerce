@@ -18,11 +18,11 @@
         <p>The use of biometric information is regulated by Article 11 of the Federal Law "On Personal Data". It can only behave if there is a written consent of the PDN subject, or in exceptional cases.</p>
         <p>In the context of information technology, biometric data can be used as unique identifiers that give their carriers the rights of certain accesses or actions. This fact determines the relevance of the protection of biometric PDDs.</p>
         <p>Complex protection of personal data implies ensuring the security of not only the data itself, but also their media, for attempts to use someone else's biometrics to access protected objects, resources, etc. may entail irreversible damage to the carrier of biometric characteristics.</p>
-        <p>Personal data - any information related to a certain or determined on the basis of such information to an individual, including:
+        <p>Personal data - any information related to a certain or determined on the basis of such information to an individual, including:</p>
         <p>- his surname, name, patronymic,</p>
         <p>- year, month, date and place of birth,</p>
         <p>- address, family, social, property status, education, profession, income, etc.</p>
-        <p>Control over the implementation of these requirements is organized and conducted independently (and) with the involvement of legal entities and individual entrepreneurs, a license to carry out activities to protect the rights of confidential information. The specified control is carried out not less often than 1 time in 3 years in the terms defined by the operator (official person).</p></div>
-</div>
-</div>
+        <p>Control over the implementation of these requirements is organized and conducted independently (and) with the involvement of legal entities and individual entrepreneurs, a license to carry out activities to protect the rights of confidential information. The specified control is carried out not less often than 1 time in 3 years in the terms defined by the operator (official person).</p>
+    </div>
+
 
