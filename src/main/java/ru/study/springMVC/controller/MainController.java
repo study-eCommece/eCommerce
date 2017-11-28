@@ -2,7 +2,6 @@ package ru.study.springMVC.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import ru.study.springMVC.model.Product;
@@ -20,11 +19,7 @@ public class MainController {
     private ProductService productService;
 
     @RequestMapping({"/", "/index", "/main"})
-    public String getMainPage(Model model) {
-
-        model.addAttribute("newProductList", productService.getSortedDateProductsList());
-        model.addAttribute("popProductList", productService.getPopularProductsList());
-
+    public String getMainPage() {
         return "page/main";
     }
 
