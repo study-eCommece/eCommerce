@@ -22,7 +22,7 @@
     <div class = "backspace"> <br> </div>
 
     <div class="container">
-        <c:forEach items="${newProductList}" var="newProduct">
+        <div class="popProd">
             <div class="col-xs-12 col-md-6">
                 <!-- Первый товар -->
                 <div class="prod-info-main prod-wrap clearfix">
@@ -64,7 +64,7 @@
                 </div>
                 <!-- end product -->
             </div>
-        </c:forEach>
+        </div>
     </div>
 </div>
 
