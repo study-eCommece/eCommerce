@@ -2,8 +2,6 @@ $(document).ready(function () {
 
     getCategoryParentList();
 
-    var json = '';
-
     function getCategoryParentList() {
         $.ajax({
             type: "GET",
