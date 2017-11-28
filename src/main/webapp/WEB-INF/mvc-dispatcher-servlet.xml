@@ -39,12 +39,9 @@
     <bean id="hibernate4AnnotatedSessionFactory"
           class="org.springframework.orm.hibernate4.LocalSessionFactoryBean">
         <property name="dataSource" ref="dataSource"/>
-        <property name="annotatedClasses">
+        <property name="packagesToScan">
             <list>
-                <value>ru.study.springMVC.model.User</value>
-                <value>ru.study.springMVC.model.Category</value>
-                <value>ru.study.springMVC.model.Discount</value>
-                <value>ru.study.springMVC.model.Product</value>
+                <value>ru.study.springMVC.model</value>
             </list>
         </property>
         <property name="hibernateProperties">
