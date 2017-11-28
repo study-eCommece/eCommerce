@@ -5,7 +5,7 @@ $(document).ready(function () {
    function getContent() {
         $.ajax({
             type: "GET",
-            url: window.location.origin + '/api/cmi/test',
+            url: window.location.origin + '/api/cmi/security',
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             cache: false,
