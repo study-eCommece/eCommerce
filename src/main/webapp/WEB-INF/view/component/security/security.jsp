@@ -9,7 +9,7 @@
 
 
     <div class="title">About the security of personal data</div>
-    <div class="info">
+    <div class="text">
         <p>Protection of personal data when processing them in an information system that neutralizes the relevance, in accordance with Part 5 of Articles 19 of the Federal Law "On Personal Data".</p>
         <p>The system for the protection of personal data includes organizational and (or) technical measures, determined in view of the current threats to the security of personal data and information technology used in information systems.</p>
         <p>The security of personal data when processed in an information system that processes personal data (hereinafter referred to as the operator) or a person who processes personal data on behalf of the operator on the basis of a contract concluded with that person (hereinafter referred to as an authorized person). The contract between the operator and the authorized person must predetermine the obligation of guaranteed access to ensure the safety of personal data when processing them in the information system.</p>

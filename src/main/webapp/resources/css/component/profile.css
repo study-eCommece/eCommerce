@@ -67,8 +67,20 @@ p{
     margin: 5px;
     width: 100px;
     border-radius: 20px;
-    left: 27%;
+    left: 37%;
     top: -20px;
+}
+
+.buttonEditAddress{
+    position: absolute;
+    left: 80%;
+    top: -25px;
+}
+
+.buttonDeleteAddress{
+    position: absolute;
+    left: 1%;
+    top: -25px;
 }
 
 .buttonDeleteAccount{

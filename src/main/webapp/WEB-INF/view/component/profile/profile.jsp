@@ -6,7 +6,10 @@
   Time: 23:04
   To change this template use File | Settings | File Templates.
 --%>
-<script src="${pageContext.request.contextPath}/resources/js/component/profile.js" type="text/javascript"></script>
+
+<jsp:include page="../popups/addAddress/addAddressPopUp.jsp"/>
+<jsp:include page="../popups/changeInfo/changeInfoPopUp.jsp"/>
+<jsp:include page="../popups/deleteAccount/deleteAccountPopUp.jsp"/>
 
 <div class="title">Personal Data</div>
 
@@ -38,14 +41,6 @@
     <button class="btn buttonDeleteAccount">Delete Account</button>
 </div>
 
-<jsp:include page="../popups/addAddress/addAddressPopUp.jsp"/>
 
-<script type="text/javascript">
-    $('.popup .close_window, .overlay').click(function (){
-        $('.popup, .overlay').css({'opacity': 0, 'visibility': 'hidden'});
-    });
-    $('button.buttonAddAddress').click(function (e){
-        $('.popup, .overlay').css({'opacity': 1, 'visibility': 'visible'});
-        e.preventDefault();
-    });
-</script>
+
+
