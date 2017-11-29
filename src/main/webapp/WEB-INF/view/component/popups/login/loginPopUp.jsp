@@ -13,14 +13,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <div class="login"></div>
 <div class="signIn">
-    <div class="close_window">x</div>
+    <button class="close_window">x</button>
     <h1>Sign in</h1>
     <div class="input-information">
         <form class="input-form">
             <p><input type="text" class="info name_login" placeholder="Login"/></p>
-            <p><input type="text" class="info password" placeholder="Password"/></p>
+            <p><input type="password" class="info password" placeholder="Password"/></p>
             <p class="remember"><%--@declare id="check"--%><input type="checkbox"/><label for="check">Remember me</label></p>
-            <div class="thingclass"><a href="" class="newRegistration">New user registration</a></div>
+            <div class="thingclass"><a href="" class="newRegistration">Haven't account yet? Please sign up</a></div>
         </form>
     </div>
     <button class="signI buttonSignIn">Sign in</button>

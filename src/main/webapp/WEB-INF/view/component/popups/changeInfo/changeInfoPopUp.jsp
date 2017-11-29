@@ -10,7 +10,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <div class="editPersonalData"></div>
 <div class="changeInfo">
-    <div class="close_window">x</div>
+    <button class="close_window">x</button>
     <h1>Personal data</h1>
     <div class="input-information">
             <form class="input-form">

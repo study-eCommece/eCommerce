@@ -30,7 +30,7 @@ $(document).ready(function(){
     $('.signIn .close_window, .login').click(function (){
         $('.signIn, .login').css({'opacity': 0, 'visibility': 'hidden'});
     });
-    $('[class*=glyphicon-log-in]').click(function (e){
+    $('[class*=loginIcon]').click(function (e){
         $('.signIn, .login').css({'opacity': 1, 'visibility': 'visible'});
         e.preventDefault();
     });

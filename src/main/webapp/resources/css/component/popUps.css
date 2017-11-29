@@ -57,7 +57,7 @@
     left: 380px;
 }
 
-.change, .save, .dlt, .signU {
+.change, .save, .dlt {
     position: absolute;
     left: 150px;
     top: 410px;
@@ -67,10 +67,10 @@
     height: 30px;
     border: 1px solid #e8e8e8;
 }
-.signI{
+.signI, .signU{
     position: absolute;
     left: 150px;
-    top: 330px;
+    top: 350px;
     text-align: center;
     border-radius: 20px;
     width: 150px;
@@ -118,10 +118,10 @@
     top: 140px;
     left: 105px;
 }
-.newRegistration{
+.thingclass{
     position: relative;
-    top: 200px;
-    left: 145px;
+    top: 220px;
+    left: 100px;
 }
 .email{
     position: absolute;
@@ -130,16 +130,20 @@
     position: absolute;
 }
 .passwordReg{
-    position: relative;
-    top: 40px;
-    left: 85px;
+    position: absolute;
+    top: 110px;
 }
 .repeatPasReg{
-    position: relative;
-    top: 60px;
-    left: 85px;
+    position: absolute;
+    top: 160px;
 }
 .sortMen1{
     position: relative;
     top: 50px;
+}
+.close_window{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff
 }

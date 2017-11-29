@@ -33,7 +33,7 @@
 
         </div>
         <div class="icons">
-            <a href=""><i class="glyphicon glyphicon-log-in"></i> <div class="icon-text">Login</div></a>
+            <a href=""><div class="loginIcon"><i class="glyphicon glyphicon-log-in"></i> <div class="icon-text">Login</div></div></a>
             <a href="#"><i class="glyphicon glyphicon-shopping-cart"></i> <div class="icon-text">Cart</div></a>
         </div>
     </div>
