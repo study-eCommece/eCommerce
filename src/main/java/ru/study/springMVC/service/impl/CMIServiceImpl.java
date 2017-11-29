@@ -18,7 +18,7 @@ import java.util.List;
 @Service
 public class CMIServiceImpl implements CMIService {
 
-	private static final String PATH_SECURITY_JSON_FILE = "json/security.json";
+	private static final String PATH_SECURITY_JSON_FILE = "json/jsonContent.json";
 
 	private List<JsonObject> jsonObjectList;
 

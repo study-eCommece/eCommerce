@@ -20,14 +20,4 @@ public class SecurityController {
 
         return "page/security";
     }
-
-    @Autowired
-    CMIService cmiService;
-
-    @RequestMapping("api/cmi/security")
-    @ResponseBody
-    public List<JsonObject> getTest() {
-
-        return cmiService.getJsonContent();
-    }
 }

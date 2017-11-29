@@ -37,3 +37,5 @@
 <div class="secondRowFooter">
     Copyright © 2017 eCommerce study. All rights reserved.
 </div>
+
+<script src="${pageContext.request.contextPath}/resources/js/component/cmi.js" type="text/javascript"></script>
