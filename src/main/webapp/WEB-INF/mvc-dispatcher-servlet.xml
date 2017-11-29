@@ -70,4 +70,6 @@
     <mvc:annotation-driven />
     <mvc:default-servlet-handler />
 
+    <context:property-placeholder location="classpath*:prop/path.properties"/>
+
 </beans>
