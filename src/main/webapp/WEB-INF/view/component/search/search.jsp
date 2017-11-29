@@ -1,13 +1,5 @@
-
-<%--
-  Created by IntelliJ IDEA.
-  User: Anton
-  Date: 04.11.2017
-  Time: 23:11
-  To change this template use File | Settings | File Templates.
---%>
-
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<script src="${pageContext.request.contextPath}/resources/js/component/search.js" type="text/javascript"></script>
 
 <title>Search</title>
 
@@ -17,15 +9,13 @@
 
     <div class="alert-warning" role="alert"></div>
 
-    <h1 class="title"> Searching results </h1>
+    <h1 class="title search-title"></h1>
 
     <div class = "backspace"> <br> </div>
 
     <div class="container">
 
-        <div class="box">
-
-            <p>Sorry, nothing found on your request..</p>
+        <div class="box search-box">
 
         </div>
 

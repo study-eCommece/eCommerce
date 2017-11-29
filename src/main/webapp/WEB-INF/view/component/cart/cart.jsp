@@ -1,10 +1,14 @@
 <%@page contentType="text\html;charset=UTF-8"%>
+
 <div>
+
+    <script src="${pageContext.request.contextPath}/resources/js/component/cart.js" type="text/javascript"></script>
+
     <table>
-        <div class="cartName"><h1 class="title">Cart</h1></div>
-        <div class="cart1">Register online to add products to the shopping cart.</div>
+        <div class="cartName"><h1 class="title cart-title"></h1></div>
+        <div class="cart1 cart1-row1"></div>
         <br/>
-        <div class="cart1">Your shopping cart is currently empty. Use our catalog to add products.</div>
+        <div class="cart1 cart1-row2"></div>
         <br/>
     </table>
     <div class="sortMen1" align="right">

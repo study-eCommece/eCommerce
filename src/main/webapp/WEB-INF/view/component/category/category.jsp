@@ -1,7 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <jsp:include page="../popups/sorting/sortingPopUp.jsp"/>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
-<div class="title">category</div>
+<script src="${pageContext.request.contextPath}/resources/js/component/category.js" type="text/javascript"></script>
+
+<div class="title category-title"></div>
 <div class="row">
     <div class="col-md-4">
         <div class="ssv-bold-label">

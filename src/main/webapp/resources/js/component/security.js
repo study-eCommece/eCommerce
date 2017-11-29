@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
-    getContentAndDraw('title');
-    getContentAndDraw('text');
+    getContentAndDraw('security-title');
+    getContentAndDraw('security-text');
 });
