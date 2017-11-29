@@ -18,17 +18,21 @@ import java.util.List;
 @Service
 public class CMIServiceImpl implements CMIService {
 
-	private static final String PATH_SECURITY_JSON_FILE = "json/jsonContent.json";
+	private static final String PATH_CONTENT_JSON_FILE = "json/jsonContent.json";
 
 	private List<JsonObject> jsonObjectList;
 
 	@PostConstruct
-	public void init() throws FileNotFoundException {
-		Gson gson = new Gson();
-		URL resource = SecurityController.class.getClassLoader().getResource(PATH_SECURITY_JSON_FILE);
-		File file = new File(resource.getFile());
-		JsonReader reader = new JsonReader(new FileReader(file));
-		jsonObjectList = Arrays.asList(gson.fromJson(reader, JsonObject[].class));
+	public void init() {
+		try {
+			Gson gson = new Gson();
+			URL resource = SecurityController.class.getClassLoader().getResource(PATH_CONTENT_JSON_FILE);
+			File file = new File(resource.getFile());
+			JsonReader reader = new JsonReader(new FileReader(file));
+			jsonObjectList = Arrays.asList(gson.fromJson(reader, JsonObject[].class));
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 	}
 
 	@Override
@@ -48,6 +52,7 @@ public class CMIServiceImpl implements CMIService {
 		for (JsonObject jsonObject: jsonObjectList) {
 			if (jsonObject.getId().equals(id)) {
 				result = jsonObject;
+				break;
 			}
 		}
 

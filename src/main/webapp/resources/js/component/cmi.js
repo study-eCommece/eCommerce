@@ -7,6 +7,7 @@ function getContent(id) {
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         cache: false,
+        async: false,
         success: function (content) {
             drawContent(content)
         },
