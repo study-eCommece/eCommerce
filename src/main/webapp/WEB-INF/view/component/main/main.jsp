@@ -6,7 +6,7 @@
 
 <div class="main_container">
 
-    <h1 class="title novelties"></h1>
+    <h1 class="title">${novelties}</h1>
 
     <div class="container">
 
@@ -22,7 +22,7 @@
 
 <!--Example-->
 
-    <h1 class="title best-goods"></h1>
+    <h1 class="title">${bestGoods}</h1>
 
     <div class="container">
 

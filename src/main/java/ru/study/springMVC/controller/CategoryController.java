@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.study.springMVC.model.Category;
+import ru.study.springMVC.service.CMIService;
 import ru.study.springMVC.service.CategoryService;
 
 import java.util.List;
@@ -15,15 +16,17 @@ import java.util.List;
 @Controller
 public class CategoryController {
 
-    private CategoryService categoryService;
+    private static final String CATEGORY_TITLE = "categoryTitle";
 
     @Autowired
-    public CategoryController(CategoryService categoryService) {
-        this.categoryService = categoryService;
-    }
+    private CMIService cmiService;
+
+    @Autowired
+    private CategoryService categoryService;
 
     @RequestMapping(value = "category")
     public String getCategoriesPage(Model model) {
+        model.addAttribute(CATEGORY_TITLE, cmiService.getJsonContentById(CATEGORY_TITLE));
         model.addAttribute("categoryList", categoryService.getTreeList());
 
         return "page/category";

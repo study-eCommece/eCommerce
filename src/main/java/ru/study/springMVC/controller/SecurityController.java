@@ -16,17 +16,17 @@ import java.util.List;
 @Controller
 public class SecurityController {
 
+    private static final String SECURITY_TITLE = "securityTitle";
+    private static final String SECURITY_TEXT = "securityText";
+
     @Autowired
     private CMIService cmiService;
 
     @RequestMapping(value = "security")
     public String getSecurityPage(Model model) {
 
-        final JsonObject title = cmiService.getJsonContentById("security-title");
-        final JsonObject text = cmiService.getJsonContentById("security-text");
-
-        model.addAttribute(title.getId(), title.getContent());
-        model.addAttribute(text.getId(), text.getContent());
+        model.addAttribute(SECURITY_TITLE, cmiService.getJsonContentById(SECURITY_TITLE));
+        model.addAttribute(SECURITY_TEXT, cmiService.getJsonContentById(SECURITY_TEXT));
 
         return "page/security";
     }

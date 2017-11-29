@@ -11,7 +11,7 @@
 <jsp:include page="../popups/changeInfo/changeInfoPopUp.jsp"/>
 <jsp:include page="../popups/deleteAccount/deleteAccountPopUp.jsp"/>
 
-<div class="title profile-title"></div>
+<div class="title">${profileTitle}</div>
 
 <div class="personal">
     <em><strong><table class="table personalData"><tr><td><p>Name: </p></td><td>Vasja</td></tr>

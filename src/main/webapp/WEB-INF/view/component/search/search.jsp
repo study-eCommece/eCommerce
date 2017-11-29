@@ -9,14 +9,14 @@
 
     <div class="alert-warning" role="alert"></div>
 
-    <h1 class="title search-title"></h1>
+    <h1 class="title">${searchTitle}</h1>
 
     <div class = "backspace"> <br> </div>
 
     <div class="container">
 
-        <div class="box search-box">
-
+        <div class="box">
+            ${searchBox}
         </div>
 
         <div class="col-xs-12 col-md-6">

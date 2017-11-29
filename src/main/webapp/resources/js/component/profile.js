@@ -42,8 +42,6 @@ $(document).ready(function(){
         $('.signUp, .registration').css({'opacity': 1, 'visibility': 'visible'});
         e.preventDefault();
     });
-
-    getContentAndDraw('profile-title');
 });
 
 

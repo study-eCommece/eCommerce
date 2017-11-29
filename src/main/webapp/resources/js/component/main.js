@@ -1,8 +1,5 @@
 $(document).ready(function () {
 
-    getContentAndDraw('novelties');
-    getContentAndDraw('best-goods');
-
     getNewProduct();
     getPopularProduct();
 

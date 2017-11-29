@@ -1,12 +1,11 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<script src="${pageContext.request.contextPath}/resources/js/component/footer.js" type="text/javascript"></script>
 
 <div class="firstRowFooter clearFix">
     <div class="footer-links">
         <ul class="nav nav-pills">
-            <li><a href="#" class="link link-au"></a></li>
-            <li><a href="#" class="link link-del"></a></li>
-            <li><a href="#" class="link link-sec"></a></li>
+            <li><a href="#" class="link">About Us</a></li>
+            <li><a href="#" class="link">Delivery</a></li>
+            <li><a href="#" class="link">Security</a></li>
         </ul>
     </div>
     <div class="social">
@@ -28,6 +27,4 @@
     </div>
 </div>
 
-<div class="secondRowFooter"></div>
-
-<script src="${pageContext.request.contextPath}/resources/js/component/cmi.js" type="text/javascript"></script>
+<div class="secondRowFooter">Copyright © 2017 eCommerce study. All rights reserved.</div>

@@ -2,13 +2,11 @@
 
 <div>
 
-    <script src="${pageContext.request.contextPath}/resources/js/component/cart.js" type="text/javascript"></script>
-
     <table>
-        <div class="cartName"><h1 class="title cart-title"></h1></div>
-        <div class="cart1 cart1-row1"></div>
+        <div class="cartName"><h1 class="title">${cartTitle}</h1></div>
+        <div class="cart1">${cart1Row1}</div>
         <br/>
-        <div class="cart1 cart1-row2"></div>
+        <div class="cart1">${cart1Row2}</div>
         <br/>
     </table>
     <div class="sortMen1" align="right">

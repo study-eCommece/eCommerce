@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface CMIService {
 
-	JsonObject getJsonContentById(String id);
+	String getJsonContentById(String id);
 
 	List<JsonObject> getJsonContent();
 

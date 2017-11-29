@@ -36,7 +36,7 @@ public class CMIServiceImpl implements CMIService {
 	}
 
 	@Override
-	public JsonObject getJsonContentById(String id) {
+	public String getJsonContentById(String id) {
 		return getElementById(id);
 	}
 
@@ -45,7 +45,7 @@ public class CMIServiceImpl implements CMIService {
 		return jsonObjectList;
 	}
 
-	private JsonObject getElementById(String id) {
+	private String getElementById(String id) {
 
 		JsonObject result = null;
 
@@ -56,7 +56,7 @@ public class CMIServiceImpl implements CMIService {
 			}
 		}
 
-		return result;
+		return result.getContent();
 	}
 
 }
