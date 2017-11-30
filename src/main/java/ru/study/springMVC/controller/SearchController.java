@@ -28,7 +28,7 @@ public class SearchController {
     private ProductService productService;
 
     @RequestMapping(value = "search", method = RequestMethod.GET)
-    public String getSearchPage(@RequestParam("name") String name, Model model) {
+    public String getSearchPage(@RequestParam(value = "name", required = false) String name, Model model) {
         model.addAttribute("searchResult", productService.findProductByName(name));
         model.addAttribute(SEARCH_TITLE, cmiService.getJsonContentById(SEARCH_TITLE));
         model.addAttribute(SEARCH_BOX, cmiService.getJsonContentById(SEARCH_BOX));
