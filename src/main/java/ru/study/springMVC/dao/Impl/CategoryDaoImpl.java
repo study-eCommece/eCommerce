@@ -15,6 +15,7 @@ import java.util.List;
  * Реализация {@link CategoryDao}
  */
 @Repository
+@Transactional
 public class CategoryDaoImpl implements CategoryDao {
 
 	private SessionFactory sessionFactory;
@@ -24,21 +25,18 @@ public class CategoryDaoImpl implements CategoryDao {
 		this.sessionFactory = sessionFactory;
 	}
 
-	@Transactional
 	@Override
 	public void addCategories(Category category) {
 		Session session = this.sessionFactory.getCurrentSession();
 		session.persist(category);
 	}
 
-	@Transactional
 	@Override
 	public void updateCategories(Category category) {
 		Session session = this.sessionFactory.getCurrentSession();
 		session.update(category);
 	}
 
-	@Transactional
 	@Override
 	public void deleteCategories(Long id) {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -49,7 +47,6 @@ public class CategoryDaoImpl implements CategoryDao {
 		}
 	}
 
-	@Transactional
 	@Override
 	public Category getCategoriesById(Long id) {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -58,7 +55,6 @@ public class CategoryDaoImpl implements CategoryDao {
 		return category;
 	}
 
-	@Transactional
 	@Override
 	public List<Category> getCategoriesList() {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -71,7 +67,6 @@ public class CategoryDaoImpl implements CategoryDao {
 		return categoryList;
 	}
 
-	@Transactional
 	@Override
 	public List<Category> getChildList(Long parent_id) {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -85,7 +80,6 @@ public class CategoryDaoImpl implements CategoryDao {
 		return childList;
 	}
 
-	@Transactional
 	@Override
 	public List<Category> getParentList() {
 		Session session = this.sessionFactory.getCurrentSession();

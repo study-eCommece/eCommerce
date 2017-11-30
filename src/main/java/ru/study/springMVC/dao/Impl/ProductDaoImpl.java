@@ -15,6 +15,7 @@ import java.util.List;
  * Реализация для {@link ProductDao}
  */
 @Repository
+@Transactional
 public class ProductDaoImpl implements ProductDao {
 
 	private SessionFactory sessionFactory;
@@ -24,21 +25,18 @@ public class ProductDaoImpl implements ProductDao {
 		this.sessionFactory = sessionFactory;
 	}
 
-	@Transactional
 	@Override
 	public void addProduct(Product product) {
 		Session session = this.sessionFactory.getCurrentSession();
 		session.persist(product);
 	}
 
-	@Transactional
 	@Override
 	public void updateProduct(Product product) {
 		Session session = this.sessionFactory.getCurrentSession();
 		session.update(product);
 	}
 
-	@Transactional
 	@Override
 	public void deleteProduct(Long id) {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -49,7 +47,6 @@ public class ProductDaoImpl implements ProductDao {
 		}
 	}
 
-	@Transactional
 	@Override
 	public Product getProductById(Long id) {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -58,7 +55,6 @@ public class ProductDaoImpl implements ProductDao {
 		return product;
 	}
 
-	@Transactional
 	@Override
 	public List<Product> getProductsList(Long categoryId) {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -72,7 +68,6 @@ public class ProductDaoImpl implements ProductDao {
 		return productsList;
 	}
 
-	@Transactional
 	@Override
 	public List<Product> getProductsListByPopular(Long popular) {
 		Session session = this.sessionFactory.getCurrentSession();
@@ -87,7 +82,6 @@ public class ProductDaoImpl implements ProductDao {
 		return productsList;
 	}
 
-	@Transactional
 	@Override
 	public List<Product> getProductsListOrderByAddDate() {
 		Session session = this.sessionFactory.getCurrentSession();
