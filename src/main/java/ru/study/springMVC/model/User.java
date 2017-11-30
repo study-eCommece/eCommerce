@@ -1,66 +1,141 @@
 package ru.study.springMVC.model;
 
-
 import javax.persistence.*;
+import java.util.List;
 
 /**
  * Created by Anton on 27.10.2017.
  */
 @Entity
-@Table(name = "user")
+@Table(name = "users")
 public class User {
     @Id
-    @Column(name = "id")
+    @Column(name = "user_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
+    private Long id;
 
-    @Column(name = "name")
-    private String name;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "role_id")
+    private Role role;
 
-    @Column(name = "lastname")
-    private String lastName;
+    @OneToMany(fetch = FetchType.EAGER)
+    @JoinColumn(name = "address_id")
+    private List<Address> addresses;
 
-    @Column(name = "role")
-    private String role;
+    @Column(name = "login", length = 100)
+    private String login;
 
-    public User() {
-    }
+    @Column(name = "first_name", length = 100)
+    private String first_name;
 
-    public User(String name, String lastName, String role) {
-        this.name = name;
-        this.lastName = lastName;
-        this.role = role;
-    }
+    @Column(name = "pass", length = 100)
+    private String pass;
 
-    public long getId() {
+    @Column(name = "phone", length = 100)
+    private String phone;
+
+    @Column(name = "email", length = 100)
+    private String email;
+
+    @Column(name = "registration_date", length = 100)
+    private String registrationDate;
+
+    @Column(name = "avatar", length = 100)
+    private String avatar;
+
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getLastName() {
-        return lastName;
-    }
-
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
-
-    public String getRole() {
+    public Role getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(Role role) {
         this.role = role;
+    }
+
+    public List<Address> getAddresses() {
+        return addresses;
+    }
+
+    public void setAddresses(List<Address> addresses) {
+        this.addresses = addresses;
+    }
+
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public String getFirst_name() {
+        return first_name;
+    }
+
+    public void setFirst_name(String first_name) {
+        this.first_name = first_name;
+    }
+
+    public String getPass() {
+        return pass;
+    }
+
+    public void setPass(String pass) {
+        this.pass = pass;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getRegistrationDate() {
+        return registrationDate;
+    }
+
+    public void setRegistrationDate(String registrationDate) {
+        this.registrationDate = registrationDate;
+    }
+
+    public String getAvatar() {
+        return avatar;
+    }
+
+    public void setAvatar(String avatar) {
+        this.avatar = avatar;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", role=" + role +
+                ", addresses=" + addresses +
+                ", login='" + login + '\'' +
+                ", first_name='" + first_name + '\'' +
+                ", pass='" + pass + '\'' +
+                ", phone='" + phone + '\'' +
+                ", email='" + email + '\'' +
+                ", registrationDate='" + registrationDate + '\'' +
+                ", avatar='" + avatar + '\'' +
+                '}';
     }
 }

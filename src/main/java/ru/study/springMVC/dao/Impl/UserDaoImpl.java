@@ -8,12 +8,14 @@ import ru.study.springMVC.dao.UserDao;
 import ru.study.springMVC.model.User;
 
 
+import javax.transaction.Transactional;
 import java.util.List;
 
 /**
  * Created by Anton on 29.10.2017.
  */
 @Repository
+@Transactional
 public class UserDaoImpl implements UserDao {
 
     private SessionFactory sessionFactory;
@@ -50,7 +52,7 @@ public class UserDaoImpl implements UserDao {
     @SuppressWarnings(value = "unchecked")
     public List<User> getUserList() {
         Session session = this.sessionFactory.getCurrentSession();
-        Query query = session.createQuery("from User");
+        Query query = session.createQuery("from ru.study.springMVC.model.User");
         List<User> userList = query.list();
 
         return userList;
