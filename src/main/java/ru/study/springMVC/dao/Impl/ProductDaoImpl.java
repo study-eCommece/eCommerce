@@ -60,9 +60,10 @@ public class ProductDaoImpl implements ProductDao {
 		Session session = this.sessionFactory.getCurrentSession();
 
 		String sql = "from ru.study.springMVC.model.Product";
-		sql += " where category_id = " + categoryId;
+		sql += " where category_id=:categoryId";
 
 		Query query = session.createQuery(sql);
+		query.setParameter("categoryId", categoryId);
 		List<Product> productsList = query.list();
 
 		return productsList;
@@ -73,9 +74,10 @@ public class ProductDaoImpl implements ProductDao {
 		Session session = this.sessionFactory.getCurrentSession();
 
 		String sql = "from ru.study.springMVC.model.Product";
-		sql += " where popular = " + popular;
+		sql += " where popular=:popular";
 
 		Query query = session.createQuery(sql);
+		query.setParameter("popular", popular);
 		query.setMaxResults(4);
 		List<Product> productsList = query.list();
 

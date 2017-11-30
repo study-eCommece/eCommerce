@@ -72,9 +72,10 @@ public class CategoryDaoImpl implements CategoryDao {
 		Session session = this.sessionFactory.getCurrentSession();
 
 		String sql = "from ru.study.springMVC.model.Category";
-		sql += " where parent_id = " + parent_id;
+		sql += " where parent_id=:parent_id";
 
 		Query query = session.createQuery(sql);
+		query.setParameter("parent_id", parent_id);
 		List<Category> childList = query.list();
 
 		return childList;
