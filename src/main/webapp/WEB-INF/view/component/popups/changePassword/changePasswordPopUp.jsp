@@ -13,10 +13,10 @@
     <h1>Edit password</h1>
     <div class="input-information">
         <form class="input-form">
-            <input type="text" class="info oldPassword" placeholder="Old password"/>
-            <input type="text" class="info newPassword" placeholder="New password"/>
-            <input type="text" class="info repeatNewPassword" placeholder="Repeat new password"/>
+            <input type="password" class="info oldPassword" placeholder="Old password"/>
+            <input type="password" class="info newPassword" placeholder="New password"/>
+            <input type="password" class="info repeatNewPassword" placeholder="Repeat new password"/>
         </form>
     </div>
-    <button class="save buttonSave">Save</button>
+    <button class="savePas buttonSave">Save</button>
 </div>

@@ -57,7 +57,7 @@ p{
     left: 43%;
 }
 
-.buttonEditPersonalData,.buttonDeleteAccount,.buttonAddAddress{
+.buttonEditPersonalData,.buttonEditPassword,.buttonDeleteAccount,.buttonAddAddress{
     margin: auto;
     width: 150px;
 }
@@ -81,6 +81,12 @@ p{
     position: absolute;
     left: 1%;
     top: -25px;
+}
+.buttonEditPersonalData{
+    top: -17px
+}
+.buttonEditPassword{
+    left: 350px
 }
 
 .buttonDeleteAccount{

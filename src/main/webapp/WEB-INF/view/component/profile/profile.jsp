@@ -10,6 +10,7 @@
 <jsp:include page="../popups/addAddress/addAddressPopUp.jsp"/>
 <jsp:include page="../popups/changeInfo/changeInfoPopUp.jsp"/>
 <jsp:include page="../popups/deleteAccount/deleteAccountPopUp.jsp"/>
+<jsp:include page="../popups/changePassword/changePasswordPopUp.jsp"/>
 
 <div class="title">${profileTitle}</div>
 
@@ -19,6 +20,7 @@
         <tr><td><p>E-mail: </p></td><td>Petrov.Vasja@mail.ru</td></tr>
         <tr><td><p>Phone: </p></td><td>89879524565</td></tr></table></strong></em>
 <button class="btn buttonEditPersonalData">Edit personal data</button>
+    <button class="btn buttonEditPassword">Edit password</button>
 </div>
 
 <div class="address">

@@ -20,6 +20,13 @@ $(document).ready(function(){
         $('.changeInfo, .editPersonalData').css({'opacity': 1, 'visibility': 'visible'});
         e.preventDefault();
     });
+    $('.popup .close_window, .editPassword').click(function (){
+        $('.popup, .editPassword').css({'opacity': 0, 'visibility': 'hidden'});
+    });
+    $('button.buttonEditPassword').click(function (e){
+        $('.popup, .editPassword').css({'opacity': 1, 'visibility': 'visible'});
+        e.preventDefault();
+    });
     $('.account .close_window, .deleteAccount').click(function (){
         $('.account, .deleteAccount').css({'opacity': 0, 'visibility': 'hidden'});
     });
