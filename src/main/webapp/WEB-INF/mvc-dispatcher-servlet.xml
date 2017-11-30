@@ -52,14 +52,6 @@
         </property>
     </bean>
 
-    <bean id="userDao" class="ru.study.springMVC.dao.Impl.UserDaoImpl">
-        <property name="sessionFactory" ref="hibernate4AnnotatedSessionFactory"/>
-    </bean>
-
-    <bean id="userService" class="ru.study.springMVC.service.UserService">
-        <property name="userDao" ref="userDao"/>
-    </bean>
-
     <tx:annotation-driven transaction-manager="transactionManager"/>
 
     <bean id="transactionManager" class="org.springframework.orm.hibernate4.HibernateTransactionManager">
