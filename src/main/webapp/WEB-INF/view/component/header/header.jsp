@@ -40,8 +40,8 @@
     <div class="secondRow">
         <div class="navbar">
             <div class="navbar-inner">
-                <form class="navbar-search pull-right">
-                    <input type="text" class="search-query" placeholder="Search">
+                <form class="navbar-search pull-right" action="/search" method="GET">
+                    <input type="text" class="search-query" name="name" placeholder="Search">
                 </form>
             </div>
         </div>

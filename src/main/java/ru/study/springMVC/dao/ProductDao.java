@@ -21,4 +21,6 @@ public interface ProductDao {
 	List<Product> getProductsListByPopular(Long popular);
 
 	List<Product> getProductsListOrderByAddDate();
+
+	List<Product> getProductsListByName(String name);
 }

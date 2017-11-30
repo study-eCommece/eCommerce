@@ -22,4 +22,6 @@ public interface ProductService {
 	List<Product> getPopularProductsList();
 
 	List<Product> getSortedDateProductsList();
+
+	List<Product> findProductByName(String name);
 }

@@ -6,6 +6,7 @@ import ru.study.springMVC.dao.ProductDao;
 import ru.study.springMVC.model.Product;
 import ru.study.springMVC.service.ProductService;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -61,5 +62,13 @@ public class ProductServiceImpl implements ProductService {
 	@Override
 	public List<Product> getSortedDateProductsList() {
 		return productDao.getProductsListOrderByAddDate();
+	}
+
+	@Override
+	public List<Product> findProductByName(String name) {
+		if (name.equals("")) {
+			return new ArrayList<>();
+		}
+		return productDao.getProductsListByName(name);
 	}
 }

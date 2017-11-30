@@ -97,4 +97,18 @@ public class ProductDaoImpl implements ProductDao {
 
 		return productsList;
 	}
+
+	@Override
+	public List<Product> getProductsListByName(String name){
+		Session session = this.sessionFactory.getCurrentSession();
+
+		String sql = "from ru.study.springMVC.model.Product";
+		sql+=" where name like :name";
+		Query query = session.createQuery(sql);
+		query.setParameter("name", "%"+name+"%");
+
+		return query.list();
+	}
+
+
 }
