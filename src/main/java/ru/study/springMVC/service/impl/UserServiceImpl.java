@@ -3,7 +3,9 @@ package ru.study.springMVC.service.impl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import ru.study.springMVC.dao.RoleDao;
 import ru.study.springMVC.dao.UserDao;
+import ru.study.springMVC.model.Role;
 import ru.study.springMVC.model.User;
 import ru.study.springMVC.service.UserService;
 
@@ -18,8 +20,14 @@ public class UserServiceImpl implements UserService {
     @Autowired
     UserDao userDao;
 
+    @Autowired
+    private RoleDao roleDao;
+
     @Override
     public User saveUser(User user) {
+
+        final Role role = roleDao.findRoleById(11L);
+        user.setRole(role);
 
         userDao.addUser(user);
 
@@ -34,5 +42,10 @@ public class UserServiceImpl implements UserService {
     @Override
     public List<User> getUserList() {
         return userDao.getUserList();
+    }
+
+    @Override
+    public User findUser(String login) {
+        return userDao.findUserByLogin(login);
     }
 }

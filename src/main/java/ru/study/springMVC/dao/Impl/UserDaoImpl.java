@@ -36,18 +36,18 @@ public class UserDaoImpl implements UserDao {
         session.update(user);
     }
 
-    public void deleteUser(long id) {
+    public void deleteUser(Long id) {
         Session session = this.sessionFactory.getCurrentSession();
-        User user = (User)session.load(User.class, new Long(id));
+        User user = (User)session.load(User.class, id);
 
         if (user != null) {
             session.delete(user);
         }
     }
 
-    public User getUserById(long id) {
+    public User getUserById(Long id) {
         Session session = this.sessionFactory.getCurrentSession();
-        User user = (User)session.load(User.class, new Long(id));
+        User user = (User)session.load(User.class, id);
 
         return user;
     }
@@ -59,5 +59,19 @@ public class UserDaoImpl implements UserDao {
         List<User> userList = query.list();
 
         return userList;
+    }
+
+    @Override
+    public User findUserByLogin(String login) {
+        Session session = this.sessionFactory.getCurrentSession();
+
+        String sql = "from ru.study.springMVC.model.User";
+        sql += " where login=:login";
+
+        Query query = session.createQuery(sql);
+        query.setParameter("login", login);
+        User user = (User) query.uniqueResult();
+
+        return user;
     }
 }

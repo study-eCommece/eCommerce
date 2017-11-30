@@ -11,4 +11,6 @@ public interface UserService {
 	User login(User user);
 
 	List<User> getUserList();
+
+	User findUser(String login);
 }
