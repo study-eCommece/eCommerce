@@ -2,11 +2,13 @@ package ru.study.springMVC.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import ru.study.springMVC.model.User;
 import ru.study.springMVC.service.UserService;
+import ru.study.springMVC.validator.UserValidator;
 
 import java.util.List;
 
@@ -21,6 +23,9 @@ public class UserController {
 	 */
 	@Autowired
 	private UserService userService;
+
+	@Autowired
+	private UserValidator userValidator;
 
 	@RequestMapping("/test1")
 	public List<User> test1() {
@@ -40,15 +45,24 @@ public class UserController {
 	public String registration(@RequestParam("email") String email,
 							   @RequestParam("login") String login,
 							   @RequestParam("password") String password,
-							   @RequestParam("confirmPassword") String confirmPassword) {
+							   @RequestParam("confirmPassword") String confirmPassword,
+							   Model model) {
 		final User user = new User();
 		user.setEmail(email);
 		user.setLogin(login);
 		user.setPass(password);
-		user.setConfirmPassword(confirmPassword);
+
+		final List<String> errors = userValidator.validateUser(user, confirmPassword);
+
+		if (errors.size() != 0) {
+			model.addAttribute("errors", errors);
+			System.out.println("ошибки");
+			//тут нужен что то типо return "registration"
+			return "redirect:profile";
+		}
 
 		userService.saveUser(user);
-
+		System.out.println("success");
 		return "redirect:profile";
 	}
 }

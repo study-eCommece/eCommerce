@@ -43,17 +43,6 @@ public class User {
     @Column(name = "avatar", length = 100)
     private String avatar;
 
-    @Transient
-    private String confirmPassword;
-
-    public String getConfirmPassword() {
-        return confirmPassword;
-    }
-
-    public void setConfirmPassword(String confirmPassword) {
-        this.confirmPassword = confirmPassword;
-    }
-
     public Long getId() {
         return id;
     }

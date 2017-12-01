@@ -19,6 +19,7 @@ import java.util.List;
  * Created by Anton on 29.10.2017.
  */
 @Service
+@Transactional
 public class UserServiceImpl implements UserService {
 
     @Autowired
@@ -27,14 +28,8 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private RoleDao roleDao;
 
-    @Autowired
-    private UserValidator userValidator;
-
     @Override
-    @Transactional
     public User saveUser(User user) {
-
-        userValidator.validateUser(user);
 
         user.setPass(CryptPassword.encode(user.getPass()));
 
