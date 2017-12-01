@@ -11,7 +11,29 @@
 }
 
 .delivery-info {
+
     text-align: justify;
     font-family: 'Times New Roman', Times, serif;
     font-size: 15pt;
+
+}
+
+span{
+
+    font-size: 18px;
+    /*font-weight: bold;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: xx-large;
+
+}
+.greybox{
+
+    background: #f0f3f3;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 15px 21px;
+    margin: 20px 381px;
+    line-height: 20px;
+
 }

@@ -1,0 +1,32 @@
+
+
+#list5 {
+    color:#2f383d;
+}
+
+#list5 ul {
+    font-size:20px;
+}
+#list5 ul li { }
+
+#list5 ul li ul {
+    padding:5px 0 5px 18px;
+    font-size:15px;
+}
+
+#list5 ul li ul li {
+    color:#7885a0;
+    height:31px;
+    margin-left:10px;
+}
+
+#news{
+
+    background:yellow;
+    width: 218px;
+    height: 351px;
+    position: absolute;
+    left: 1117px;
+    top: 266px;
+
+}
