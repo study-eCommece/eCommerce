@@ -30,10 +30,17 @@
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url"
-                  value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_4df04f4eb72b468"/>
+        <property name="url" value="jdbc:mysql://eu-cdbr-west-01.cleardb.com:3306/heroku_4df04f4eb72b468"/>
         <property name="username" value="bbf37605481f2a"/>
         <property name="password" value="8a1fa26e"/>
+
+        <property name="validationQuery" value="SELECT 1" />
+        <property name="testOnBorrow" value="true" />
+        <property name="removeAbandoned" value="true" />
+        <property name="removeAbandonedTimeout" value="55" />
+        <property name="initialSize" value="10" />
+        <property name="maxActive" value="5" />
+        <property name="maxWait" value="5000" />
     </bean>
 
     <bean id="hibernate4AnnotatedSessionFactory"
