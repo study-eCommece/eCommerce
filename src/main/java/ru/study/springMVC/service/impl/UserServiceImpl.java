@@ -7,6 +7,7 @@ import ru.study.springMVC.dao.UserDao;
 import ru.study.springMVC.model.Role;
 import ru.study.springMVC.model.User;
 import ru.study.springMVC.service.UserService;
+import ru.study.springMVC.util.CryptPassword;
 
 import java.util.List;
 
@@ -26,7 +27,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public User saveUser(User user) {
 
-        user.setPass(cryptPasswordEncoder(user.getPass()));
+        user.setPass(CryptPassword.encode(user.getPass()));
 
         final Role role = roleDao.findRoleById(11L);
         user.setRole(role);
@@ -55,9 +56,5 @@ public class UserServiceImpl implements UserService {
     public void autoLogin(User user) {
         //ToDo: сделать
         System.out.println("autoLogin");
-    }
-
-    private String cryptPasswordEncoder(String pass) {
-        return pass;
     }
 }
