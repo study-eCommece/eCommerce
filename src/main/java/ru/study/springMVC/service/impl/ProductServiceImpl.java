@@ -66,10 +66,6 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public List<Product> findProductByName(String name) {
-		if(name==null||name.equals("")){
-
-			return new ArrayList<>();
-		}
 		return productDao.getProductsListByName(name);
 	}
 }

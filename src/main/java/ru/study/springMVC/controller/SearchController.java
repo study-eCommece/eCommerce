@@ -11,6 +11,7 @@ import ru.study.springMVC.model.Product;
 import ru.study.springMVC.service.CMIService;
 import ru.study.springMVC.service.ProductService;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -29,16 +30,22 @@ public class SearchController {
 
     @RequestMapping(value = "search", method = RequestMethod.GET)
     public String getSearchPage(@RequestParam(value = "name", required = false) String name, Model model) {
-        model.addAttribute("searchResult", productService.findProductByName(name));
-        model.addAttribute(SEARCH_TITLE, cmiService.getJsonContentById(SEARCH_TITLE));
+
         model.addAttribute(SEARCH_BOX, cmiService.getJsonContentById(SEARCH_BOX));
+        model.addAttribute(SEARCH_TITLE, cmiService.getJsonContentById(SEARCH_TITLE));
+        if(name==null||name.equals("")||name.equals(" ")){
+            return "page/search";
+        }
+        model.addAttribute("searchResult", productService.findProductByName(name));
         return "page/search";
     }
 
     @RequestMapping("api/findProductByName")
     @ResponseBody
     public List<Product> findProductByName(@RequestParam("name") String name) {
+        if(name==null||name.equals("")||name.equals(" ")){
+            return new ArrayList<>();
+        }
         return productService.findProductByName(name);
     }
-
 }
