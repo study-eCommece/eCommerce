@@ -2,13 +2,17 @@ package ru.study.springMVC.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ru.study.springMVC.dao.RoleDao;
 import ru.study.springMVC.dao.UserDao;
 import ru.study.springMVC.model.Role;
 import ru.study.springMVC.model.User;
 import ru.study.springMVC.service.UserService;
 import ru.study.springMVC.util.CryptPassword;
+import ru.study.springMVC.validator.UserValidator;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 /**
@@ -23,14 +27,24 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private RoleDao roleDao;
 
+    @Autowired
+    private UserValidator userValidator;
 
     @Override
+    @Transactional
     public User saveUser(User user) {
+
+        userValidator.validateUser(user);
 
         user.setPass(CryptPassword.encode(user.getPass()));
 
         final Role role = roleDao.findRoleById(11L);
         user.setRole(role);
+
+        LocalDate date = LocalDate.now();
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd");
+        String dateText = date.format(formatter);
+        user.setRegistrationDate(dateText);
 
         userDao.addUser(user);
 

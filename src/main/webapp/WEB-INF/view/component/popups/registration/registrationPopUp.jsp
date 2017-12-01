@@ -6,10 +6,10 @@
     <h1>Sign up</h1>
     <div class="input-information">
         <form class="input-form" action="/registration" method="post">
-            <p><em class="example">ex. Petrov.Vasja@mail.ru</em><input type="text" class="info email" placeholder="E-mail"/></p></br>
-            <p><em class="example">ex. Petrov.Vasja</em><input type="text" class="info loginReg" placeholder="Login"/></p>
-            <p><input type="password" class="info passwordReg" placeholder="Password"/></p>
-            <p><input type="password" class="info repeatPasReg" placeholder="Confirm Password"/></p>
+            <p><em class="example">ex. Petrov.Vasja@mail.ru</em><input type="text" class="info email" placeholder="E-mail" name="email"/></p></br>
+            <p><em class="example">ex. Petrov.Vasja</em><input type="text" class="info loginReg" placeholder="Login" name="login"/></p>
+            <p><input type="password" class="info passwordReg" placeholder="Password" name="password"/></p>
+            <p><input type="password" class="info repeatPasReg" placeholder="Confirm Password" name="confirmPassword"/></p>
             <div class="thingclass"><a href="" class="loginIcon">Have account already? Please sign in</a></div>
             <button class="signU buttonSignUp" type="submit">Sign up</button>
         </form>

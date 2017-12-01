@@ -37,9 +37,17 @@ public class UserController {
 	 * @return переходим на url профайла
 	 */
 	@RequestMapping(value = "/registration", method = RequestMethod.POST)
-	public String registration() {
+	public String registration(@RequestParam("email") String email,
+							   @RequestParam("login") String login,
+							   @RequestParam("password") String password,
+							   @RequestParam("confirmPassword") String confirmPassword) {
+		final User user = new User();
+		user.setEmail(email);
+		user.setLogin(login);
+		user.setPass(password);
+		user.setConfirmPassword(confirmPassword);
 
-		userService.autoLogin(new User());
+		userService.saveUser(user);
 
 		return "redirect:profile";
 	}
