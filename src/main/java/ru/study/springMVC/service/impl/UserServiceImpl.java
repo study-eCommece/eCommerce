@@ -51,6 +51,12 @@ public class UserServiceImpl implements UserService {
         return userDao.findUserByLogin(login);
     }
 
+    @Override
+    public void autoLogin(User user) {
+        //ToDo: сделать
+        System.out.println("autoLogin");
+    }
+
     private String cryptPasswordEncoder(String pass) {
         return pass;
     }
