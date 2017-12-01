@@ -2,7 +2,6 @@ package ru.study.springMVC.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 import ru.study.springMVC.dao.RoleDao;
 import ru.study.springMVC.dao.UserDao;
 import ru.study.springMVC.model.Role;
@@ -23,8 +22,11 @@ public class UserServiceImpl implements UserService {
     @Autowired
     private RoleDao roleDao;
 
+
     @Override
     public User saveUser(User user) {
+
+        user.setPass(cryptPasswordEncoder(user.getPass()));
 
         final Role role = roleDao.findRoleById(11L);
         user.setRole(role);
@@ -47,5 +49,9 @@ public class UserServiceImpl implements UserService {
     @Override
     public User findUser(String login) {
         return userDao.findUserByLogin(login);
+    }
+
+    private String cryptPasswordEncoder(String pass) {
+        return pass;
     }
 }

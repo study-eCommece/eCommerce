@@ -61,7 +61,6 @@
                         </table>
                     </div>
                 </div>
-                <div class="mytest">hhhh</div>
                 <div class="col-md-4">
                     <div class="ssv-bold-label">
                         <table>
