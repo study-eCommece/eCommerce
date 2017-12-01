@@ -1,111 +1,151 @@
-.title {
-    overflow: hidden;
-    text-align: center;
-    font-size: 30px;
-    margin-bottom: 20px;
+.editPersonalData, .overlay, .deleteAccount, .login, .registration, .editPassword {
+    background-color: rgba(0, 0, 0, 0.7);
+    bottom: 0;
+    cursor: default;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    visibility: hidden;
+    z-index: 99999;
+    -webkit-transition: opacity .5s;
+    -moz-transition: opacity .5s;
+    -ms-transition: opacity .5s;
+    -o-transition: opacity .5s;
+    transition: opacity .5s;
 }
-.title:before,
-.title:after {
-    content: "";
+.addAddress, .changeInfo, .account, .signIn, .signUp, .popup {
+    background-color: #fff;
+    border: 3px solid #fff;
     display: inline-block;
-    vertical-align: middle;
-    width: 100%;
-    height: 1px;
-    background-color: rgba(0, 0, 0, 0.41);
-    position: relative;
-}
-.title:before {
-    margin-left: -100%;
-    left: -14px;
-}
-.title:after {
-    margin-right: -100%;
-    right: -14px;
-}
-.personal {
-    background-color: rgba(239, 236, 236, 0.81);
-    border-radius: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-bottom: 20px;
-}
-
-h1 {
-    text-align: center;
-}
-p{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 13pt;
     left: 50%;
+    opacity: 0;
+    padding: 15px;
+    width: 430px;
+    height: 470px;
+    position: fixed;
+    text-align: justify;
+    top: 40%;
+    visibility: hidden;
+    z-index: 999999;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: opacity .5s, top .5s;
+    -moz-transition: opacity .5s, top .5s;
+    -ms-transition: opacity .5s, top .5s;
+    -o-transition: opacity .5s, top .5s;
+    transition: opacity .5s, top .5s;
+    border-radius: 11px;
 }
-
-.address {
-    background-color: rgba(239, 236, 236, 0.81);
-    border-radius: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    margin-bottom: 20px;
-}
-
-.btn {
-    padding: 3px 7px;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 20px;
-    position: relative;
-    top: 15px;
-    left: 43%;
-}
-
-.buttonEditPersonalData,.buttonEditPassword,.buttonDeleteAccount,.buttonAddAddress{
-    margin: auto;
-    width: 150px;
-}
-
-.buttonEditAddress,.buttonDeleteAddress {
-    border: 1px solid #e8e8e8;
-    margin: 5px;
-    width: 100px;
-    border-radius: 20px;
-    left: 37%;
-    top: -20px;
-}
-
-.buttonEditAddress{
+.editPersonalData .overlay .deleteAccount .login .registration .editPassword .close_window  {
+    width: 6px;
+    height: 17px;
     position: absolute;
-    left: 80%;
-    top: -25px;
+    padding: 1px 9px 4px 9px;
+    top: 10px;
+    right: 7px;
+    cursor: pointer;
+    color: #000;
 }
-
-.buttonDeleteAddress{
-    position: absolute;
-    left: 1%;
-    top: -25px;
-}
-.buttonEditPersonalData{
-    top: -17px
-}
-.buttonEditPassword{
-    left: 350px
-}
-
-.buttonDeleteAccount{
-    border: 1px solid #bd0909;
-    background-color: #ff0000;
-}
-
-.table{
-    width: 80%;
+.close_window{
     position: relative;
-    margin-left: 10%;
+    top: 5px;
+    left: 380px;
+}
+
+.change, .save, .dlt, .savePas {
+    position: absolute;
+    left: 150px;
+    top: 410px;
     text-align: center;
     border-radius: 20px;
-    overflow: hidden;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
 }
-
-.selected{
-    background: silver;
+.signI, .signU{
+    position: absolute;
+    left: 150px;
+    top: 350px;
+    text-align: center;
     border-radius: 20px;
+    width: 150px;
+    height: 30px;
+    border: 1px solid #e8e8e8;
+}
+.info{
+    position: absolute;
+    width: 190px;
+    left: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+.example{
+    text-align: right;
+    position: relative;
+    top: 7px;
+    left: -10px;
+}
+.input-form{
+    position: absolute;
+    top: 130px;
+}
+.request{
+    text-align: center;
+    position: relative;
+    left: 30px;
+}
+.accountInputPassword, .accountComment{
+    position: relative;
+    left: 80px;
+}
+.name_login{
+    position: absolute;
+    top: 35px;
+    left: 115px;
+}
+.password{
+    position: absolute;
+    top: 90px;
+    left: 115px;
+}
+.remember{
+    position: relative;
+    top: 140px;
+    left: 105px;
+}
+.thingclass{
+    position: relative;
+    top: 220px;
+    left: 100px;
+}
+.email{
+    position: absolute;
+}
+.loginReg{
+    position: absolute;
+}
+.passwordReg{
+    position: absolute;
+    top: 110px;
+}
+.repeatPasReg{
+    position: absolute;
+    top: 160px;
+}
+.sortMen1{
+    position: relative;
+    top: 50px;
+}
+.close_window{
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e8e8e8;
+    background-color: #ffffff
 }
 .oldPassword{
     top: 30px;
