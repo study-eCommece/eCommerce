@@ -34,7 +34,7 @@ public class UserController {
 
 	@RequestMapping("/test2")
 	public User test2(@RequestParam String login) {
-		return userService.findUser(login);
+		return userService.findUserByLogin(login);
 	}
 
 	/**
@@ -56,7 +56,8 @@ public class UserController {
 
 		if (errors.size() != 0) {
 			model.addAttribute("errors", errors);
-			System.out.println("ошибки");
+			System.out.println("====ошибки при регистраци=====");
+			errors.forEach(System.out::println);
 			//тут нужен что то типо return "registration"
 			return "redirect:profile";
 		}

@@ -11,10 +11,10 @@ import java.util.List;
 @Component
 public class UserValidator {
 
-	private static final String PASSWORD_NOT_GOOD = "Пароли слишком мал";
+	private static final String PASSWORD_NOT_GOOD = "Пароль слишком мал";
 	private static final String PASSWORD_NOT_DOUBLE = "Пароли не совпадают";
 	private static final String USER_BE = "Пользователь существует с таким логином";
-	private static final String EMAIL_BE = "Пароли слишком мал";
+	private static final String EMAIL_BE = "Пользователь с таким email существует";
 
 	@Autowired
 	private UserService userService;
@@ -31,8 +31,12 @@ public class UserValidator {
 			errors.add(PASSWORD_NOT_DOUBLE);
 		}
 
-		if (userService.findUser(user.getLogin()) != null) {
+		if (userService.findUserByLogin(user.getLogin()) != null) {
 			errors.add(USER_BE);
+		}
+
+		if (userService.findUserByEmail(user.getEmail()) != null) {
+			errors.add(EMAIL_BE);
 		}
 
 		return errors;

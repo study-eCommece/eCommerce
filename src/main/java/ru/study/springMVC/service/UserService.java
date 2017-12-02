@@ -12,7 +12,9 @@ public interface UserService {
 
 	List<User> getUserList();
 
-	User findUser(String login);
+	User findUserByLogin(String login);
+
+	User findUserByEmail(String email);
 
 	void autoLogin(User user);
 }

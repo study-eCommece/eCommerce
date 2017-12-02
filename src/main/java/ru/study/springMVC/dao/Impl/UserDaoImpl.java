@@ -73,4 +73,18 @@ public class UserDaoImpl implements UserDao {
 
         return user;
     }
+
+    @Override
+    public User findUserByEmail(String email) {
+        Session session = this.sessionFactory.getCurrentSession();
+
+        String sql = "from ru.study.springMVC.model.User";
+        sql += " where email=:email";
+
+        Query query = session.createQuery(sql);
+        query.setParameter("email", email);
+        User user = (User) query.uniqueResult();
+
+        return user;
+    }
 }

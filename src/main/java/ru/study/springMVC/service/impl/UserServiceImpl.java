@@ -37,7 +37,7 @@ public class UserServiceImpl implements UserService {
         user.setRole(role);
 
         LocalDate date = LocalDate.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy MM dd");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd");
         String dateText = date.format(formatter);
         user.setRegistrationDate(dateText);
 
@@ -57,8 +57,13 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
-    public User findUser(String login) {
+    public User findUserByLogin(String login) {
         return userDao.findUserByLogin(login);
+    }
+
+    @Override
+    public User findUserByEmail(String email) {
+        return userDao.findUserByEmail(email);
     }
 
     @Override
