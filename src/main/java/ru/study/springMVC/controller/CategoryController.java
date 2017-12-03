@@ -27,7 +27,6 @@ public class CategoryController {
     @RequestMapping(value = "category")
     public String getCategoriesPage(Model model) {
         model.addAttribute(CATEGORY_TITLE, cmiService.getJsonContentById(CATEGORY_TITLE));
-        model.addAttribute("categoryList", categoryService.getTreeList());
 
         return "page/category";
     }
