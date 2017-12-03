@@ -5,6 +5,6 @@ import org.springframework.util.DigestUtils;
 public class CryptPassword {
 
 	public static String encode(String password) {
-		return String.valueOf(password.hashCode());
+		return new String(DigestUtils.md5Digest(password.getBytes()));
 	}
 }

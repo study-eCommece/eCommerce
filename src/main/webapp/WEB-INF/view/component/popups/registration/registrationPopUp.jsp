@@ -5,7 +5,7 @@
     <button class="close_window">x</button>
     <h1>Sign up</h1>
     <div class="input-information">
-        <form class="input-form" action="/registration" method="post">
+        <form class="input-form" action="${pageContext.request.contextPath}/registration" method="post">
             <p><em class="example">ex. Petrov.Vasja@mail.ru</em><input type="text" class="info email" placeholder="E-mail" name="email"/></p></br>
             <p><em class="example">ex. Petrov.Vasja</em><input type="text" class="info loginReg" placeholder="Login" name="login"/></p>
             <p><input type="password" class="info passwordReg" placeholder="Password" name="password"/></p>
