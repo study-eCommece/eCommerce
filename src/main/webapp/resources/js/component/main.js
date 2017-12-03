@@ -7,7 +7,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: window.location.href + '/api/popProductList',
+            url: window.location.href + 'api/popProductList',
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             cache: false,
@@ -24,7 +24,7 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: window.location.href + '/api/newProductList',
+            url: window.location.href + 'api/newProductList',
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             cache: false,
