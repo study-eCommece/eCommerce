@@ -11,10 +11,10 @@ import java.util.List;
 @Component
 public class UserValidator {
 
-	private static final String PASSWORD_NOT_GOOD = "Пароль слишком мал";
-	private static final String PASSWORD_NOT_DOUBLE = "Пароли не совпадают";
-	private static final String USER_BE = "Пользователь существует с таким логином";
-	private static final String EMAIL_BE = "Пользователь с таким email существует";
+	private static final String PASSWORD_NOT_GOOD = "Password is small";
+	private static final String PASSWORD_NOT_DOUBLE = "Password don't matches";
+	private static final String USER_BE = "User is be";
+	private static final String EMAIL_BE = "Email use";
 
 	@Autowired
 	private UserService userService;
