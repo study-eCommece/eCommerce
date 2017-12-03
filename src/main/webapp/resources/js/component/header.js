@@ -5,7 +5,7 @@ $(document).ready(function () {
     function getCategoryParentList() {
         $.ajax({
             type: "GET",
-            url: window.location.href + 'api/categoryParentList',
+            url: 'api/categoryParentList',
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             cache: false,

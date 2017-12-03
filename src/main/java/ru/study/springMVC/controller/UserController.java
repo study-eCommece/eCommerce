@@ -56,7 +56,7 @@ public class UserController {
 
 		if (errors.size() != 0) {
 			model.addAttribute("errors", errors);
-			System.out.println("====ошибки при регистраци=====");
+			System.out.println("====errors on registration=====");
 			errors.forEach(System.out::println);
 			//тут нужен что то типо return "registration"
 			return "redirect:profile";
