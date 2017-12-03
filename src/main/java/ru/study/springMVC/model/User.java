@@ -22,22 +22,22 @@ public class User {
     @JoinColumn(name = "address_id")
     private List<Address> addresses;
 
-    @Column(name = "login", length = 100)
+    @Column(name = "login", length = 100, unique = true, nullable = false)
     private String login;
 
     @Column(name = "first_name", length = 100)
     private String first_name;
 
-    @Column(name = "pass", length = 100)
+    @Column(name = "pass", length = 100, nullable = false)
     private String pass;
 
     @Column(name = "phone", length = 100)
     private String phone;
 
-    @Column(name = "email", length = 100)
+    @Column(name = "email", length = 100, unique = true, nullable = false)
     private String email;
 
-    @Column(name = "registration_date", length = 100)
+    @Column(name = "registration_date", length = 100, nullable = false)
     private String registrationDate;
 
     @Column(name = "avatar", length = 100)
