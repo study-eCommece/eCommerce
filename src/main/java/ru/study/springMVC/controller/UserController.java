@@ -58,7 +58,7 @@ public class UserController {
 			model.addAttribute("errors", errors);
 			System.out.println("====errors on registration=====");
 			errors.forEach(System.out::println);
-			//тут нужен что то типо return "registration"
+			//тут нужен что то типо return "registration". Да не, не нужен. переносим все на асинхронную версию :)
 			return "redirect:profile";
 		}
 
