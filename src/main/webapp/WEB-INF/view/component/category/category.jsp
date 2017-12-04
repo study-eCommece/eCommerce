@@ -2,199 +2,68 @@
 <jsp:include page="../popups/sorting/sortingPopUp.jsp"/>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 
-<div class="title">${categoryTitle}</div>
-<div class="row">
-    <div class="col-md-4">
-        <div class="ssv-bold-label">
-            <div class="text-center"><h3>Category</h3></div>
-            <br>
-            <div>
+<div class="title">Category</div>
+
+<div class="main_category">
+
+    <article>
+
+        <div id ="list5">
+
+        <ul type="disk">
+            <li>Сomputers
                 <ul>
-                    <c:forEach items="${categoryList}" var="category">
-                        <li><a href="#"><c:out value="${category.name}" /></a></li>
-                        <ul>
-                            <c:forEach items="${category.child}" var="child">
-                                <li><a href="#"><c:out value="${child.name}" /></a></li>
-                            </c:forEach>
-                        </ul>
-                    </c:forEach>
+                    <li><a href="#">System blocks</a></li>
+                    <li><a href="#">Monoblocks</a></li>
+                    <li><a href="#">Platforms</a></li>
+                    <li><a href="#">Thin clients</a></li>
+                    <li><a href="#">Servers</a></li>
                 </ul>
-            </div>
-        </div>
+            </li>
+            <li>Spare parts for pc
+                <ul>
+                    <li><a href="#">Proccesors</a></li>
+                    <li><a href="#">Mother board</a></li>
+                    <li><a href="#">Video cards</a></li>
+                    <li><a href="#">Power supply</a></li>
+                    <li><a href="#">SSD</a></li>
+                </ul>
+            </li>
+            <li>Smartphones
+                <ul>
+                    <li><a href="#">PlayStation</a></li>
+                    <li><a href="#">Smart watches</a></li>
+                    <li><a href="#">Headset</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Charging</a></li>
+                </ul>
+            </li>
+       </ul>
     </div>
-    <div class="col-md-8">
-        <div class="information">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
+    </article>
+ </div>
 
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table>
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="ssv-bold-label">
-                        <table class="table-bordered">
-                            <tr class="cart2">
-                                <td> </td>
-                                <td class="col2"><input class="col21" type="button" value="X"/></td>
-                            </tr>
-                            <tr class="cart2">
-                                <td><img alt="" height="156" style="float: left; background-color: white; border-radius: 15px" width="140"/></td>
-                                <td class="col2"> </td>
-                            </tr>
-                            <tr class="cart2">
-                                <td>Цена</td>
-                                <td class="col2"><input class="col22" type="number"/></td>
-                            </tr>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div id = "Filters" >
+
+    <span class="custom-dropdown small">
+    <select disabled>
+        <option>Sherlock Holmes</option>
+        <option>The Great Gatsby</option>
+        <option>V for Vendetta</option>
+        <option>The Wolf of Wallstreet</option>
+        <option>Quantum of Solace</option>
+    </select>
+    </span>
+
+    <span class="custom-dropdown-1 small">
+    <select disabled>
+        <option>Sherlock Holmes</option>
+        <option>The Great Gatsby</option>
+        <option>V for Vendetta</option>
+        <option>The Wolf of Wallstreet</option>
+        <option>Quantum of Solace</option>
+    </select>
+    </span>
+
 </div>
-
