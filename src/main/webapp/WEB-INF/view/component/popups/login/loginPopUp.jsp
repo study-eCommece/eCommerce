@@ -21,7 +21,7 @@
             <p><input type="password" class="info password" placeholder="Password"/></p>
             <p class="remember"><%--@declare id="check"--%><input type="checkbox"/><label for="check">Remember me</label></p>
             <div class="thingclass"><a href="" class="newRegistration">Haven't account yet? Please sign up</a></div>
+            <button class="signI buttonSignIn">Sign in</button>
         </form>
     </div>
-    <button class="signI buttonSignIn">Sign in</button>
 </div>

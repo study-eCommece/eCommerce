@@ -69,8 +69,8 @@
 }
 .signI, .signU{
     position: absolute;
-    left: 150px;
-    top: 350px;
+    left: 130px;
+    top: 230px;
     text-align: center;
     border-radius: 20px;
     width: 150px;

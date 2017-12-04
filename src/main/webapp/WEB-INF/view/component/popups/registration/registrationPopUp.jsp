@@ -11,7 +11,7 @@
             <p><input type="password" class="info passwordReg" placeholder="Password" name="password"/></p>
             <p><input type="password" class="info repeatPasReg" placeholder="Confirm Password" name="confirmPassword"/></p>
             <div class="thingclass"><a href="" class="loginIcon">Have account already? Please sign in</a></div>
+            <button class="signU buttonSignUp" type="submit">Sign up</button>
         </form>
     </div>
-    <button class="signU buttonSignUp" type="submit">Sign up</button>
 </div>
