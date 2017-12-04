@@ -38,6 +38,7 @@ $(document).ready(function(){
         $('.signIn, .login').css({'opacity': 0, 'visibility': 'hidden'});
     });
     $('[class*=loginIcon]').click(function (e){
+        $('.signUp, .registration').css({'opacity': 0, 'visibility': 'hidden'});
         $('.signIn, .login').css({'opacity': 1, 'visibility': 'visible'});
         e.preventDefault();
     });
