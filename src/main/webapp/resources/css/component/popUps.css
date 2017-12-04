@@ -149,10 +149,13 @@
 }
 .oldPassword{
     top: 30px;
+    left: 115px;
 }
 .newPassword{
     top: 80px;
+    left: 115px;
 }
 .repeatNewPassword{
     top: 130px;
+    left: 115px;
 }
