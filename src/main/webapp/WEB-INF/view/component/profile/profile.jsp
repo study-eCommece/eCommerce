@@ -19,8 +19,8 @@
         <tr><td><p>Login: </p></td><td>Petrov.Vasja</td></tr>
         <tr><td><p>E-mail: </p></td><td>Petrov.Vasja@mail.ru</td></tr>
         <tr><td><p>Phone: </p></td><td>89879524565</td></tr></table></strong></em>
-<button class="btn buttonEditPersonalData">Edit personal data</button>
-    <button class="btn buttonEditPassword">Edit password</button>
+<button class="generalButton buttonEditPersonalData">Edit personal data</button>
+    <button class="generalButton buttonEditPassword">Edit password</button>
 </div>
 
 <div class="address">
@@ -29,18 +29,18 @@
                         <tr><td><em><p>P.O. Box 496, New York, 10003, USA</p></em></td></tr></table>
     <div class="row">
         <div class="col-md-6">
-            <button class="btn buttonEditAddress">Edit</button>
+            <button class="generalButton buttonEditAddress">Edit</button>
         </div>
         <div class="col-md-6">
-            <button class ="btn buttonDeleteAddress">Delete</button>
+            <button class ="generalButton buttonDeleteAddress">Delete</button>
         </div>
     </div>
-    <button class="btn buttonAddAddress">Add address</button>
+    <button class="generalButton buttonAddAddress">Add address</button>
 
 </div>
 
 <div class="delete">
-    <button class="btn buttonDeleteAccount">Delete Account</button>
+    <button class="generalButton buttonDeleteAccount">Delete Account</button>
 </div>
 
 
