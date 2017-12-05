@@ -23,4 +23,6 @@ public interface CategoryService {
 	List<Category> getTreeList();
 
 	List<Category> getParentCategoryList();
+
+	List<Category> getChildCategoryList(Long id);
 }

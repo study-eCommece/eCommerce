@@ -64,4 +64,9 @@ public class CategoryServiceImpl implements CategoryService {
 	public List<Category> getParentCategoryList() {
 		return categoryDao.getParentList();
 	}
+
+	@Override
+	public List<Category> getChildCategoryList(Long id) {
+		return categoryDao.getChildList(id);
+	}
 }

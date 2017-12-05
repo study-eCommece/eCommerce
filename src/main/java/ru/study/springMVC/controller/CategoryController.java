@@ -31,9 +31,23 @@ public class CategoryController {
         return "page/category";
     }
 
+    /**
+     * Получаем список категорий которые является родителем
+     * @return список категорий
+     */
     @RequestMapping(value = "api/categoryParentList")
     @ResponseBody
     public List<Category> getCategoryParentList() {
         return categoryService.getParentCategoryList();
+    }
+
+    /**
+     * Получаем список категорий которые является предками
+     * @return список категорий
+     */
+    @RequestMapping(value = "api/categoryParentList")
+    @ResponseBody
+    public List<Category> getCategoryChildList(@RequestParam("categoryId") Long categoryId) {
+        return categoryService.getChildCategoryList(categoryId);
     }
 }
