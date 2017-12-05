@@ -45,7 +45,7 @@ public class CategoryController {
      * Получаем список категорий которые является предками
      * @return список категорий
      */
-    @RequestMapping(value = "api/categoryParentList")
+    @RequestMapping(value = "api/categoryChildList")
     @ResponseBody
     public List<Category> getCategoryChildList(@RequestParam("categoryId") Long categoryId) {
         return categoryService.getChildCategoryList(categoryId);

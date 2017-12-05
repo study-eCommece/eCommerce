@@ -18,7 +18,7 @@ $(document).ready(function () {
 
             dataType: "json",
             success: function (errorList) {
-                if (errorList.length == 0) {
+                if (errorList.length === 0) {
                     alert ('Пользователь успешно зарегестрирован');
                 } else {
                     alert('у пользователя есть проблемы'+errorList);

@@ -82,7 +82,7 @@ $(document).ready(function () {
                 '                    </div>\n' +
                 '                </div>\n' +
                 '                <!-- end product -->\n' +
-                '            </div>'
+                '            </div>';
 
             $('.popProd').html(content);
         });
@@ -133,7 +133,7 @@ $(document).ready(function () {
                 '                    </div>\n' +
                 '                </div>\n' +
                 '                <!-- end product -->\n' +
-                '            </div>'
+                '            </div>';
 
             $('.newProd').html(content);
         });
