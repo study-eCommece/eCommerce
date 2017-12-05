@@ -2,14 +2,15 @@ package ru.study.springMVC.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import ru.study.springMVC.model.User;
 import ru.study.springMVC.service.UserService;
 import ru.study.springMVC.validator.UserValidator;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -42,11 +43,11 @@ public class UserController {
 	 * @return переходим на url профайла
 	 */
 	@RequestMapping(value = "/registration", method = RequestMethod.POST)
-	public String registration(@RequestParam("email") String email,
-							   @RequestParam("login") String login,
-							   @RequestParam("password") String password,
-							   @RequestParam("confirmPassword") String confirmPassword,
-							   Model model) {
+	@ResponseBody
+	public List<String> registration(@RequestParam("email") String email,
+									 @RequestParam("login") String login,
+									 @RequestParam("password") String password,
+									 @RequestParam("confirmPassword") String confirmPassword) {
 		final User user = new User();
 		user.setEmail(email);
 		user.setLogin(login);
@@ -55,15 +56,13 @@ public class UserController {
 		final List<String> errors = userValidator.validateUser(user, confirmPassword);
 
 		if (errors.size() != 0) {
-			model.addAttribute("errors", errors);
-			System.out.println("====errors on registration=====");
+			System.out.println("=====errors on registration=====");
 			errors.forEach(System.out::println);
-			//тут нужен что то типо return "registration". Да не, не нужен. переносим все на асинхронную версию :)
-			return "redirect:profile";
+			return errors;
 		}
 
 		userService.saveUser(user);
 		System.out.println("success");
-		return "redirect:profile";
+		return new ArrayList<>();
 	}
 }
