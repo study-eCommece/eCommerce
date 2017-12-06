@@ -3,3 +3,4 @@
 eCommerce.iml
 target/
 src/main/webapp/WEB-INF/view/html/
+.idea/workspace.xml
