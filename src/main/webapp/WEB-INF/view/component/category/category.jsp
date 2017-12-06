@@ -6,42 +6,14 @@
 <div class="title">Category</div>
 
 <div class="main_category">
-
     <article>
-
         <div id ="list5">
+            <div class="categoryId">${categoryId}</div>
+            <ul class="category-list">
 
-        <ul type="disk">
-            <li>Сomputers
-                <ul>
-                    <li><a href="#">System blocks</a></li>
-                    <li><a href="#">Monoblocks</a></li>
-                    <li><a href="#">Platforms</a></li>
-                    <li><a href="#">Thin clients</a></li>
-                    <li><a href="#">Servers</a></li>
-                </ul>
-            </li>
-            <li>Spare parts for pc
-                <ul>
-                    <li><a href="#">Proccesors</a></li>
-                    <li><a href="#">Mother board</a></li>
-                    <li><a href="#">Video cards</a></li>
-                    <li><a href="#">Power supply</a></li>
-                    <li><a href="#">SSD</a></li>
-                </ul>
-            </li>
-            <li>Smartphones
-                <ul>
-                    <li><a href="#">PlayStation</a></li>
-                    <li><a href="#">Smart watches</a></li>
-                    <li><a href="#">Headset</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Charging</a></li>
-                </ul>
-            </li>
-       </ul>
-    </div>
-  </article>
+           </ul>
+        </div>
+    </article>
  </div>
 
 <div id = "Filters" >

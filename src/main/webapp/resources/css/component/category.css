@@ -59,3 +59,7 @@ article {
     padding-right: 12px;
 
 }
+
+.categoryId {
+    visibility: hidden;
+}

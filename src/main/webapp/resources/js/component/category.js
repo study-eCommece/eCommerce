@@ -5,16 +5,26 @@ $(document).ready(function () {
 
         $.ajax({
             type: "GET",
-            url: 'api/categoryChildList?categoryId=1',
+            url: 'api/categoryChildList?categoryId=' + $('.categoryId').text(),
             contentType: "application/json; charset=utf-8",
             dataType: "json",
             cache: false,
             success: function (childCategoryList) {
-                alert('загружаю категории');
+                fillCategory(childCategoryList);
             },
             error: function (e) {
                 alert(e.responseText);
             }
         });
     }
+
+    function fillCategory(childCategoryList) {
+        var content="";
+        childCategoryList.forEach(function(childCategory) {
+            content += '<li><a href="#">' + childCategory.name + '</a></li>';
+        });
+
+        $('.category-list').html(content);
+    }
+
 });

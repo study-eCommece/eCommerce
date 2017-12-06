@@ -12,7 +12,7 @@ $(document).ready(function () {
             dataType: "json",
             cache: false,
             success: function (popularProductList) {
-                fillPopularCategory(popularProductList);
+                    fillPopularCategory(popularProductList);
             },
             error: function (e) {
                 alert(e.responseText);
@@ -42,7 +42,7 @@ $(document).ready(function () {
         var content = '';
 
         popularProductList.forEach(function (popularProduct) {
-            content += '<div class="col-xs-12 col-md-6">\n' +
+                content += '<div class="col-xs-12 col-md-6">\n' +
                 '                <!-- Первый товар -->\n' +
                 '                <div class="prod-info-main prod-wrap clearfix">\n' +
                 '                    <div class="row">\n' +
