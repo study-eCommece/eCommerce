@@ -25,8 +25,15 @@ public class CategoryController {
     private CategoryService categoryService;
 
     @RequestMapping(value = "category")
-    public String getCategoriesPage(Model model) {
+    public String getCategoriesPage(@RequestParam(value = "categoryId", required = false) String categoryId,
+                                    Model model) {
+
+        if (categoryId == null || categoryId.equals("")) {
+            return "redirect:error";
+        }
+
         model.addAttribute(CATEGORY_TITLE, cmiService.getJsonContentById(CATEGORY_TITLE));
+        model.addAttribute("categoryId", categoryId);
 
         return "page/category";
     }
