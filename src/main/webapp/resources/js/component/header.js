@@ -22,7 +22,7 @@ $(document).ready(function () {
         var list = '<ul class="nav nav-pills">';
 
         categoryList.forEach( function (category) {
-            list += '<li><a href="/category?categoryId=' + category.id + '">' +
+            list += '<li><a href="category?categoryId=' + category.id + '">' +
                 category.name +
                 '</a></li>'
         });
