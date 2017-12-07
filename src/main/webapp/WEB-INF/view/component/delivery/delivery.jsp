@@ -6,44 +6,42 @@
 
         <div class="delivery-info">
 
-            <span> Общая информация </span>
+            <span>General information</span>
             <hr>
             <p>
-                <br>Любой товар на нашем сайте вы можете заказать с доставкой.
-                  Мы осуществляем доставку по Санкт-Петербургу и Ленинградской области.
-                <br>Стоимость такой доставки будет автоматически включена в ваш заказ.
-                Также мы можем доставить вашу покупку в другие регионы России.
-                <br>В этом случае стоимость и условия доставки оговариваются в индивидуальном порядке.
-                 Сейчас мы работаем над тем, чтобы и этот вид доставки расчитывался на сайте в автоматическом режиме.
-                <div class="greybox">Мы осуществляем доставку в будние дни с 10:00 до 17:00. <br>Доставка производится до подъезда без подъема на этаж. </div>
+                <br>Any product on our website you can order with delivery.We deliver to St. Petersburg and the Leningrad region.
+                <br>The cost of such delivery will be automatically included in your order.Also we can deliver your purchase to other regions of Russia.
+                <br>In this case, the cost and terms of delivery are negotiated individually.
+                Now we are working to ensure that this type of delivery is calculated on the site in automatic mode.
+                <div class="greybox">We deliver on weekdays from 10:00 to 17:00.<br>Delivery is made to the entrance without a lift to the floor.</div>
 
             </p>
 
-            <span> Сроки и условия доставки </span>
+            <span> Terms and conditions of delivery </span>
 
             <hr>
 
             <p>
 
-                <br>Максимальная стоимость одного заказа — 50000 руб. Минимальная стоимость заказа не установлена.
+     <br>The maximum cost of one order is 50,000 rubles. The minimum order value is not set.
 
-                <br>При подтверждении заказа до 14:00 сборка и передача заказа в транспортную компанию происходит в этот же день.
+     <br>When confirming the order before 14:00, the assembly and transfer of the order to the transport company takes place on the same day.
 
-                <br>Вы можете заказать на выбор не более 2-х позиций из одной категории.
-                <br>Чемоданы, сноубордические доски, лонгборды и скейтборды на выбор не доставляются.
-                <br>Доставка сноубордических досок, лонгбордов и скейтбордов осуществляется по 100% предоплате.
-                <br>Подробную информацию можно получить у операторов колл-центра.
+     <br>You can order a choice of no more than 2 positions from one category.
+     <br>Suitcases, snowboard boards, longboards and skateboards are not available for choice.
+     <br>Delivery of snowboard boards, longboards and skateboards is carried out on 100% advance payment.
+     <br>Detailed information can be obtained from call center operators.
 
-                <br>Примерка товара должна быть осуществлена в течении 15 минут.
+     <br>The sample of the goods must be carried out within 15 minutes.
 
-                <br>Если заказ предварительно оплачен, но при курьере Вы отказываетесь от нескольких товаров или от всего заказа, для ускорения процесса возврата денежных средств — просьба связываться с нами по телефону или электронной почте.
+     <br>If the order is prepaid, but if the courier refuses several goods or the whole order, in order to speed up the process of refund - please contact us by phone or email.
 
-                <br>Мы работаем со следующими траснпортными компаниями:
-
-                <br>— PonyExpress
-                <br>— RedExpress
-                <br>— CDEK
-                <br>— PickPoint
+     <br>
+     <br>We work with the following transport companies:
+     <br>— PonyExpress
+     <br>— RedExpress
+     <br>— CDEK
+     <br>— PickPoint
             </p>
 
 
