@@ -9,12 +9,15 @@
         <div class="cart1">${cart1Row2}</div>
         <br/>
     </table>
-    <div class="sortMen1" align="right">
-        <table>
-            <tr><td>Сортировать</td><td><select class="sortMen2">
-                <div><option>По стоимости</option>
-                    <option>По дате добавления</option>
-                    <option>По алфавиту</option></div></select></td></tr></table></div>
+
+    <!--
+<div class="sortMen1" align="right">
+<table>
+    <tr><td>Сортировать</td><td><select class="sortMen2">
+        <div><option>По стоимости</option>
+            <option>По дате добавления</option>
+            <option>По алфавиту</option></div></select></td></tr></table></div>
+-->
     <br/>
     <table class="cartTable">
         <tr><td>

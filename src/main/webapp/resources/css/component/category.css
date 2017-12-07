@@ -48,18 +48,27 @@ article {
     padding-left: 238px;
 }
 
-.main_products {
-
+.products {
     display: inline-block;
     position: relative;
-    height: 120px;
-    width: 120px;
-    background-color: #419641;
-    padding-left: 12px;
-    padding-right: 12px;
-
+    height: 565px;
+    width: 745px;
+   /* background-color: #419641;*/
+    padding-left: 80px;
+    padding-right: 17px;
+    margin-left: 234px;
+    margin-right: 57px;
+    margin-top: -379px;
 }
+
 
 .categoryId {
     visibility: hidden;
+}
+.word p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 13pt;
+    left: 56%;
+    margin-left: -22px;
+    color:#7275b0;
 }

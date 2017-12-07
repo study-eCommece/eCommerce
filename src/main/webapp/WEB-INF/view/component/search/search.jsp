@@ -14,6 +14,7 @@
 
     <div class = "backspace"> <br> </div>
 
+
     <div class="container">
 
         <c:if test="${empty searchResult}">
@@ -23,6 +24,7 @@
         </c:if>
 
         <c:forEach items="${searchResult}" var="product">
+
             <div class="col-xs-12 col-md-6">
                 <!-- Первый товар -->
                 <div class="prod-info-main prod-wrap clearfix">

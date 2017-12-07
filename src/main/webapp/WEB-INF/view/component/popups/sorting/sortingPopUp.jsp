@@ -8,7 +8,8 @@
 
 <div class="sortMen1" align="right">
     <table>
-        <tr><td>Sort</td><td><select class="sortMen2">
+
+        <tr><td></td><td><select class="sortMen2">
             <div><option>at cost</option>
                 <option>by date of addition</option>
                 <option>alphabetically</option></div></select></td></tr></table></div>
