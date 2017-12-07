@@ -289,7 +289,7 @@
 }
 
 .btn-info{
-    border-radius: 0;
+    border-radius: 10px;
     position: relative;
     color: #fff;
     border:1px solid transparent;
