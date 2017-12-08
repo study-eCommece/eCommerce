@@ -23,6 +23,7 @@
 <link href="<c:url value="/resources/css/component/error.css"/>" rel="stylesheet" type="text/css">
 <script src="${pageContext.request.contextPath}/resources/node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
 <script src="${pageContext.request.contextPath}/resources/js/component/header.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/resources/bootstrap-3.3.7-dist/js/bootstrap.min.js" type="text/javascript"></script>
 <jsp:include page="../popups/login/loginPopUp.jsp"/>
 
 <div>
