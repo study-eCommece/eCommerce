@@ -7,40 +7,58 @@
 
 {width:60px;}
 .cart-table
-/**границы таблицы**/
+
+
+
 {width: 60px;}
+
 th {width: 90%;}
+
 td {width: 90px;}
+
 .strLen{
+
     width: 200px;
 }
 .cartTable{
+
     margin:auto;
 
 }
 .cartTableTov{
+
     border-radius: 10px;
     border:solid 2px;
+
 }
 .cartTableTov2{
+
     border-radius: 10px;
     border:solid 5px white;
+
 }
 .cel{
+
     width:  26%;
+
 }
 .cel2{
+
     width: 40px;
+
 }
 .btnX{
+
     height: 23px;
     width: 23px;
     float: right;
     border-radius: 20px;
     border: solid 1px red;
+
 }
 
 .buttonsCart{
+
     background-color: white;
     width: 200px;
     height: 50px;
@@ -69,7 +87,6 @@ td {width: 90px;}
     margin-right: 100%;
 }
 
-
 .sortMen2{
     border-radius: 5px;
     background-color: cornsilk;
@@ -80,5 +97,11 @@ td {width: 90px;}
 .listOfProducts {
 
     width: 1818px;
+
+}
+
+.pagination-2 {
+
+    padding-left: 214px
 
 }

@@ -117,7 +117,7 @@
 
 </div>
 
-    <div class="pagination">
+    <div class="pagination-2">
         <ul class="pagination pagination-sm">
 
             <li class="disabled"><span>«</span></li>
