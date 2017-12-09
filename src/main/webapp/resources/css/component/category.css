@@ -129,4 +129,10 @@ article {
 .list-group-item-text
 {
     margin: 0 0 11px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 11px;
+    margin-left: -25px;
+    margin-left: -25px;
+
 }

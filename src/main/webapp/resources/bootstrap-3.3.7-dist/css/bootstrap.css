@@ -1297,7 +1297,8 @@ p {
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 17px;
+    margin-left: -21px;
   }
 }
 small,
@@ -3174,6 +3175,7 @@ fieldset[disabled] .btn-primary.focus {
   color: #fff;
   background-color: #5cb85c;
   border-color: #4cae4c;
+   margin-left: -12px;
 }
 .btn-success:focus,
 .btn-success.focus {
@@ -3192,6 +3194,7 @@ fieldset[disabled] .btn-primary.focus {
   color: #fff;
   background-color: #449d44;
   border-color: #398439;
+
 }
 .btn-success:active:hover,
 .btn-success.active:hover,

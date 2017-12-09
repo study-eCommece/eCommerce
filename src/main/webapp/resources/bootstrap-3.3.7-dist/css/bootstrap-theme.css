@@ -155,15 +155,18 @@ fieldset[disabled] .btn-primary.active {
   background-repeat: repeat-x;
   border-color: #3e8f3e;
 }
+
 .btn-success:hover,
 .btn-success:focus {
   background-color: #419641;
   background-position: 0 -15px;
+  margin-left: -12px;
 }
 .btn-success:active,
 .btn-success.active {
   background-color: #419641;
   border-color: #3e8f3e;
+  margin-left: -12px;
 }
 .btn-success.disabled,
 .btn-success[disabled],
