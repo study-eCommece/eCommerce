@@ -8,13 +8,12 @@ import java.util.Date;
 @Entity
 @Table(name = "sales_orders")
 public class SalesOrders {
-
     @Id
     @Column(name="sales_order_id")
     @GeneratedValue(strategy = GenerationType.AUTO)
     private long sales_order_id;
 
-    @OneToMany(mappedBy = "id")
+    @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "user_id")
     private User user_id;
 
