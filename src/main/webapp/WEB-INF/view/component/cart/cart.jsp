@@ -11,15 +11,11 @@
     </table>
 
     <!-- -->
-    <div class="SortingButton">
-    <button type="button" class="btn btn-info dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Sorting <span class="caret"></span>
-    </button>
-    <ul class="dropdown-menu">
-        <li><a href="#">at cost</a></li>
-        <li><a href="#">by date of addition</a></li>
-        <li><a href="#">alphabetically</a></li>
-    </ul>
+    <select class="form-control">
+        <option>at cost</option>
+        <option>by date of addition</option>
+        <option>alphabetically</option>
+    </select>
     <!-- -->
 <br>
 <br>
