@@ -164,6 +164,7 @@
             </ul>
         </div>
     </div>
+    <br>
     <div class="word">
         <p>Diagonal screen</p>
     </div>
@@ -178,6 +179,7 @@
             </ul>
         </div>
     </div>
+    <br>
     <div class="word">
         <p>RAM</p>
     </div>
@@ -197,7 +199,7 @@
             </ul>
         </div>
     </div>
-
+    <br>
     <div class="word">
         <p>Video card</p>
     </div>
@@ -220,7 +222,7 @@
             </ul>
         </div>
     </div>
-
+    <br>
     <div class="word">
         <p>Touch screen</p>
     </div>
@@ -236,7 +238,7 @@
             </ul>
         </div>
     </div>
-
+    <br>
     <div class="word">
 
         <p>Operating system</p>
@@ -254,7 +256,7 @@
             </ul>
         </div>
     </div>
-
+    <br>
     <div class="word">
         <p>Processor type</p>
     </div>
@@ -264,18 +266,16 @@
             <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..
                 <span class="caret"></span></button>
             <ul class="dropdown-menu">
-
                 <li><a href="#">Intel</a></li>
                 <li><a href="#">AMD</a></li>
 
             </ul>
         </div>
     </div>
-
+    <br>
     <div class="word">
         <p>Winchester</p>
     </div>
-
     <div class="bs-example">
         <div class="btn-group">
             <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..

@@ -66,11 +66,14 @@ article {
     visibility: hidden;
 }
 .word p {
+
     font-family: 'Times New Roman', Times, serif;
     font-size: 13pt;
     left: 56%;
     margin-left: -22px;
-    color:#7275b0;
+    color: #7275b0;
+    margin-bottom: 0px;
+
 }
 
 .glyphicon { margin-right:5px; }
