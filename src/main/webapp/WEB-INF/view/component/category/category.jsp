@@ -3,9 +3,13 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <script src="${pageContext.request.contextPath}/resources/js/component/category.js" type="text/javascript"></script>
 
-
-
 <div class="title">Category</div>
+
+<select class="form-control">
+    <option>at cost</option>
+    <option>by date of addition</option>
+    <option>alphabetically</option>
+</select>
 
 <br>
 <div class="main_category">
@@ -17,6 +21,7 @@
         </div>
     </article>
  </div>
+
 
 <div class="products">
 

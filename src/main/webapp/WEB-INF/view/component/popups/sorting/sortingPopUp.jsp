@@ -5,7 +5,7 @@
   Time: 23:13
   To change this template use File | Settings | File Templates.
 --%>
-
+<!--
 <div class="sortMen1" align="right">
     <table>
 
@@ -13,4 +13,6 @@
             <div><option>at cost</option>
                 <option>by date of addition</option>
                 <option>alphabetically</option></div></select></td></tr></table></div>
+
+-->
 
