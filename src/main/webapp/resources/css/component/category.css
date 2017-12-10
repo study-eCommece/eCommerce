@@ -39,31 +39,36 @@ article {
     height: 571px;
     background-color: #ebe1e100;
     margin-left: 1050px;
-    margin-top: -518px;
+    margin-top: -569px
 
 }
 
-.pagination {
+.paginationCatygory {
 
-    padding-left: 293px
+    padding-left: 585px;
+    margin-top: 55px;
+
 }
 
 .products {
+
     display: inline-block;
     position: inherit;
     height: 565px;
     width: 868px;
-    /* background-color: #419641; */
+ /* background-color: #419641; */
     padding-left: 80px;
     padding-right: 17px;
     margin-left: 146px;
     margin-right: 57px;
     margin-top: -416px;
+
 }
 
-
 .categoryId {
+
     visibility: hidden;
+
 }
 .word p {
 
@@ -84,6 +89,7 @@ article {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
+
 }
 
 .item.list-group-item

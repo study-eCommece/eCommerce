@@ -297,7 +297,7 @@
 
 </div>
 
-<div class="pagination">
+<div class="paginationCatygory">
     <ul class="pagination pagination-sm">
 
         <li class="disabled"><span>«</span></li>
