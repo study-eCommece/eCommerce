@@ -29,7 +29,9 @@
 <div>
     <div class="firstRow clearFix">
         <div class="logo">
-            <img src="<c:url value="/resources/picture/logo.png"/>" class="img-circle">
+            <a href="main">
+                <img src="<c:url value="/resources/picture/logo.png"/>" class="img-circle">
+            </a>
         </div>
         <div class="categories">
 

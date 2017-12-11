@@ -3,9 +3,9 @@
 <div class="firstRowFooter clearFix">
     <div class="footer-links">
         <ul class="nav nav-pills">
-            <li><a href="#" class="link">About Us</a></li>
-            <li><a href="#" class="link">Delivery</a></li>
-            <li><a href="#" class="link">Security</a></li>
+            <li><a href="about" class="link">About Us</a></li>
+            <li><a href="delivery" class="link">Delivery</a></li>
+            <li><a href="security" class="link">Security</a></li>
         </ul>
     </div>
     <div class="social">

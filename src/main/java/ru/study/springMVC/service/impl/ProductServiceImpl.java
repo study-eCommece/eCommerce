@@ -2,7 +2,9 @@ package ru.study.springMVC.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import ru.study.springMVC.dao.CategoryDao;
 import ru.study.springMVC.dao.ProductDao;
+import ru.study.springMVC.model.Category;
 import ru.study.springMVC.model.Product;
 import ru.study.springMVC.service.ProductService;
 
@@ -15,6 +17,9 @@ public class ProductServiceImpl implements ProductService {
 	private static final Long POPULAR = 5L;
 
 	private ProductDao productDao;
+
+	@Autowired
+	private CategoryDao categoryDao;
 
 	@Autowired
 	public void setProductDao(ProductDao productDao) {
@@ -51,7 +56,18 @@ public class ProductServiceImpl implements ProductService {
 
 	@Override
 	public List<Product> getProductsList(Long categoryId) {
-		return productDao.getProductsList(categoryId);
+
+		List<Product> productList = new ArrayList<>();
+
+		final List<Category> childList = categoryDao.getChildList(categoryId);
+		if (!childList.isEmpty()) {
+			for (Category category: childList) {
+				productList.addAll(productDao.getProductsList(category.getId()));
+			}
+		} else {
+			productDao.getProductsList(categoryId);
+		}
+		return productList;
 	}
 
 	@Override

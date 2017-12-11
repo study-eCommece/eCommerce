@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.study.springMVC.model.Category;
 import ru.study.springMVC.service.CMIService;
 import ru.study.springMVC.service.CategoryService;
+import ru.study.springMVC.service.ProductService;
 
 import java.util.List;
 
@@ -24,8 +25,11 @@ public class CategoryController {
     @Autowired
     private CategoryService categoryService;
 
+    @Autowired
+    private ProductService productService;
+
     @RequestMapping(value = "category")
-    public String getCategoriesPage(@RequestParam(value = "categoryId", required = false) String categoryId,
+    public String getCategoriesPage(@RequestParam(value = "categoryId", required = false) Long categoryId,
                                     Model model) {
 
         if (categoryId == null || categoryId.equals("")) {
@@ -34,6 +38,8 @@ public class CategoryController {
 
         model.addAttribute(CATEGORY_TITLE, cmiService.getJsonContentById(CATEGORY_TITLE));
         model.addAttribute("categoryId", categoryId);
+
+        model.addAttribute("productList", productService.getProductsList(categoryId));
 
         return "page/category";
     }
