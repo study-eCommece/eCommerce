@@ -7,7 +7,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<div class="error-page">
 
-    <div class="home">
-        <img src="<c:url value="/resources/picture/centerd.jpg"/>" class="error-image"/>
-    </div>
+    <div class="alert alert-danger">
+    Error 404 Try searching or go to <a href="/">home page</a>
+</div>
+</div>
