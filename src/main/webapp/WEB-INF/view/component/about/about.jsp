@@ -8,15 +8,17 @@
         <p>multichannel phone: +7 (495) 225-95-22, 8 (800) 555-40-94</p>
         <p>office hours: daily 09: 00-18: 00 </p>
         <p>e-mail: beznal@onlinetrade.ruv </p>
-        <p>The schedule of work of the department of corporate sales on the pre-holidays and holidays should be clarified with the manager. </p>
-        <p>company requisites; </p>
+        <p>The schedule of work of the department of corporate sales on the pre-holidays and holidays should be clarified with the manager.</p>
+        <p>company requisites;</p>
         <p>article or product name;</p>
         <p>the quantity of ordered goods.</p>
-        <p>Specify, please, how you will take the goods after payment:</p>
+        Specify, please, how you will take the goods after payment:
         <p>delivery - you must specify the exact delivery address, contact phone number of the recipient;</p>
         <p>Pickup - you must specify the shop or the point of issue, from which the goods will be delivered. </p>
-        <p>Attention: large orders can be processed within 24 hours from the receipt of the request. Thank you for your understanding.</p>
-         <br/>
+         Attention: large orders can be processed within 24 hours from the receipt of the request. Thank you for your understanding.
+         
+        <br/>
+
         <p>Samples of documents</p>
 
         <p>Power of Attorney</p>
@@ -32,7 +34,7 @@
 
         <p>article or product name;</p>
         <p>the quantity of ordered goods.</p>
-        <p>Specify, please, how you will take the goods after payment:</p>
+        Specify, please, how you will take the goods after payment:
         <p>delivery - you must specify the exact delivery address, contact phone number of the recipient;</p>
         <p>Pickup - you must specify the shop or the point of issue, from which the goods will be delivered.</p>
         <p>Attention: large orders can be processed within 24 hours from the receipt of the request. Thank you for your understanding.</p>

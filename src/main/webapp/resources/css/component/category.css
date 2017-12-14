@@ -14,8 +14,8 @@ article {
 
     font-size: 21px;
     color: #9292eb;;
-
 }
+
 #list5 ul li {  }
 
 #list5 ul li ul {
@@ -67,7 +67,7 @@ article {
 
 .categoryId {
 
-    visibility: hidden;
+ visibility: hidden;
 
 }
 .word p {
@@ -143,5 +143,20 @@ article {
     margin-bottom: 11px;
     margin-left: -25px;
     margin-left: -25px;
+
+}
+
+.form-control{
+
+    text-shadow: 0 1px 0 #fff;
+    background-image: -webkit-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: -o-linear-gradient(top,#fff 0,#e0e0e0 100%);
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#e0e0e0));
+    background-image: linear-gradient(to bottom,#fff 0,#e0e0e0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe0e0e0', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    background-repeat: repeat-x;
+    border-color: #dbdbdb;
+    border-color: #ccc;
 
 }
