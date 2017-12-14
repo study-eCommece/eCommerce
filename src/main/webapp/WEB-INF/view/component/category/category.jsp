@@ -65,146 +65,132 @@
         <p>Manufacturer</p>
     </div>
 
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle">Сhoose..
-                <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-header">Popular</li>
-                <li><a href="#">Apple</a></li>
-                <li><a href="#">Asus</a></li>
-                <li><a href="#">Acer</a></li>
-                <li class="dropdown-header">Little-known</li>
-                <li><a href="#">Depo</a></li>
-                <li><a href="#">Dns</a></li>
-            </ul>
-        </div>
-    </div>
+    <label class="dropdown">
+        <select>
+            <option>Choose an Option Below</option>
+            <option>Dropdown Item 1</option>
+            <option>Dropdown Item 2</option>
+            <option>Dropdown Item 3</option>
+            <option>Dropdown Item 4</option>
+        </select>
+    </label>
+
     <br>
+
     <div class="word">
         <p>Diagonal screen</p>
     </div>
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..<span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-header">Popular size</li>
-                <li><a href="#">17 inch</a></li>
-                <li><a href="#">21 inch </a></li>
-                <li><a href="#">More..</a></li>
-            </ul>
-        </div>
-    </div>
+
+    <label class="dropdown-1">
+        <select>
+            <option>Choose an Option Below</option>
+            <option>Dropdown Item 1</option>
+            <option>Dropdown Item 2</option>
+            <option>Dropdown Item 3</option>
+            <option>Dropdown Item 4</option>
+        </select>
+    </label>
+
     <br>
+
     <div class="word">
         <p>RAM</p>
     </div>
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..
-                <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-header">DIMM</li>
-                <li><a href="#">JRam</a></li>
-                <li><a href="#">Hynix</a></li>
-                <li><a href="#">HyherX</a></li>
-                <li class="dropdown-header">SO-DIMM</li>
-                <li><a href="#">QUMO</a></li>
-                <li><a href="#">Samsung</a></li>
-                <li><a href="#">Kingston</a></li>
-            </ul>
-        </div>
-    </div>
-    <br>
+
+<label class="dropdown-2">
+    <select>
+        <option>Choose an Option Below</option>
+        <option>Dropdown Item 1</option>
+        <option>Dropdown Item 2</option>
+        <option>Dropdown Item 3</option>
+        <option>Dropdown Item 4</option>
+    </select>
+</label>
+
+
+     <br>
+
     <div class="word">
+
         <p>Video card</p>
+
     </div>
 
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..
-                <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li class="dropdown-header">Top</li>
-                <li><a href="#">GeForce</a></li>
-                <li><a href="#">GIGABYTE</a></li>
-                <li><a href="#">AMD</a></li>
-                <li class="dropdown-header">Medium</li>
-                <li><a href="#">Asus</a></li>
-                <li><a href="#">MSI</a></li>
-                <li class="dropdown-header">Cheap</li>
-                <li><a href="#">Palit</a></li>
-                <li><a href="#">Zotac</a></li>
-            </ul>
-        </div>
-    </div>
-    <br>
-    <div class="word">
+ <label class="dropdown-3">
+    <select>
+        <option>Choose an Option Below</option>
+        <option>Dropdown Item 1</option>
+        <option>Dropdown Item 2</option>
+        <option>Dropdown Item 3</option>
+        <option>Dropdown Item 4</option>
+    </select>
+ </label>
+
+  <br>
+
+      <div class="word">
+
         <p>Touch screen</p>
-    </div>
 
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..
-                <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li><a href="#">Mobiles</a></li>
-                <li><a href="#">Tablets</a></li>
-                <li><a href="#">Laptops</a></li>
-            </ul>
-        </div>
-    </div>
+      </div>
+
+    <label class="dropdown-4">
+    <select>
+        <option>Choose an Option Below</option>
+        <option>Dropdown Item 1</option>
+        <option>Dropdown Item 2</option>
+        <option>Dropdown Item 3</option>
+        <option>Dropdown Item 4</option>
+    </select>
+</label>
+
     <br>
+
     <div class="word">
 
         <p>Operating system</p>
 
     </div>
 
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..
-                <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li><a href="#">Windows</a></li>
-                <li><a href="#">MacOS</a></li>
-                <li><a href="#">Linux</a></li>
-            </ul>
-        </div>
-    </div>
+<label class="dropdown-5">
+    <select>
+        <option>Choose an Option Below</option>
+        <option>Dropdown Item 1</option>
+        <option>Dropdown Item 2</option>
+        <option>Dropdown Item 3</option>
+        <option>Dropdown Item 4</option>
+    </select>
+</label>
+
     <br>
     <div class="word">
         <p>Processor type</p>
     </div>
+<label class="dropdown-6">
+    <select>
+        <option>Choose an Option Below</option>
+        <option>Dropdown Item 1</option>
+        <option>Dropdown Item 2</option>
+        <option>Dropdown Item 3</option>
+        <option>Dropdown Item 4</option>
+    </select>
+</label>
 
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..
-                <span class="caret"></span></button>
-            <ul class="dropdown-menu">
-                <li><a href="#">Intel</a></li>
-                <li><a href="#">AMD</a></li>
-
-            </ul>
-        </div>
-    </div>
     <br>
+
     <div class="word">
         <p>Winchester</p>
     </div>
-    <div class="bs-example">
-        <div class="btn-group">
-            <button type="button" data-toggle="dropdown" class="btn btn-default dropdown-toggle"> Сhoose..
-                <span class="caret"></span></button>
-            <ul class="dropdown-menu">
 
-                <li><a href="#">HDD</a></li>
-                <li><a href="#">SSD</a></li>
-
-            </ul>
-        </div>
-    </div>
-  </div>
+<label class="dropdown-7">
+    <select>
+        <option>Choose an Option Below</option>
+        <option>Dropdown Item 1</option>
+        <option>Dropdown Item 2</option>
+        <option>Dropdown Item 3</option>
+        <option>Dropdown Item 4</option>
+    </select>
+</label>
 
 </div>
 
