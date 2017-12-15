@@ -1,6 +1,8 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<div class="footer-mainFooter">
 <div class="firstRowFooter clearFix">
+
     <div class="footer-links">
         <ul class="nav nav-pills">
             <li><a href="about" class="link">About Us</a></li>
@@ -28,3 +30,4 @@
 </div>
 
 <div class="secondRowFooter">Copyright © 2017 eCommerce study. All rights reserved.</div>
+</div>

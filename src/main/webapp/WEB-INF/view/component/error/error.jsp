@@ -8,8 +8,7 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <div class="error-page">
-
     <div class="alert alert-danger">
-    Error 404 Try searching or go to <a href="/">home page</a>
-</div>
+        Error 404 Try searching or go to <a href="/">home page</a>
+    </div>
 </div>

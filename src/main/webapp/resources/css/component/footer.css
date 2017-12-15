@@ -2,6 +2,7 @@
     background: #fde9e9;
     text-align: center;
     padding: 15px;
+    bottom: 0%;
 }
 
 .firstRowFooter {
@@ -20,6 +21,12 @@
     display: inline-block;
 }
 
+.footer-mainFooter{
+    margin: 0;
+    display: -webkit-flex;
+    flex-direction: column;
+}
+
 .footer-links {
     float: left;
     margin-left: 200px;
@@ -29,3 +36,14 @@
 .footer-links .link {
     margin: 0px 30px;
 }
+.site {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.site-content {
+    flex: 1;
+}
+
+

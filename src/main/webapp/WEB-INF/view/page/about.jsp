@@ -7,14 +7,16 @@
     <title>About Us</title>
 
 </head>
-<body>
+<body class="site">
 <header class="container">
     <jsp:include page="../component/header/header.jsp"/>
 </header>
 
+<main class="site-content">
 <div class="container">
     <jsp:include page="../component/about/about.jsp"/>
 </div>
+</main>
 
 <footer class="container">
     <jsp:include page="../component/footer/footer.jsp"/>
