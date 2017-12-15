@@ -57,6 +57,7 @@
             </div>
         </c:forEach>
     </div>
+
 </div>
 
 <div id = "Filters" >
@@ -67,11 +68,11 @@
 
     <label class="dropdown">
         <select>
-            <option>Choose an Option Below</option>
-            <option>Dropdown Item 1</option>
-            <option>Dropdown Item 2</option>
-            <option>Dropdown Item 3</option>
-            <option>Dropdown Item 4</option>
+            <option>Choose </option>
+            <option>Dropdown 1</option>
+            <option>Dropdown 2</option>
+            <option>Dropdown 3</option>
+            <option>Dropdown 4</option>
         </select>
     </label>
 
@@ -83,11 +84,11 @@
 
     <label class="dropdown-1">
         <select>
-            <option>Choose an Option Below</option>
-            <option>Dropdown Item 1</option>
-            <option>Dropdown Item 2</option>
-            <option>Dropdown Item 3</option>
-            <option>Dropdown Item 4</option>
+            <option>Choose </option>
+            <option>Dropdown 1</option>
+            <option>Dropdown 2</option>
+            <option>Dropdown 3</option>
+            <option>Dropdown 4</option>
         </select>
     </label>
 
@@ -99,14 +100,13 @@
 
 <label class="dropdown-2">
     <select>
-        <option>Choose an Option Below</option>
-        <option>Dropdown Item 1</option>
-        <option>Dropdown Item 2</option>
-        <option>Dropdown Item 3</option>
-        <option>Dropdown Item 4</option>
+        <option>Choose </option>
+        <option>Dropdown 1</option>
+        <option>Dropdown 2</option>
+        <option>Dropdown 3</option>
+        <option>Dropdown 4</option>
     </select>
 </label>
-
 
      <br>
 
@@ -117,13 +117,15 @@
     </div>
 
  <label class="dropdown-3">
-    <select>
-        <option>Choose an Option Below</option>
-        <option>Dropdown Item 1</option>
-        <option>Dropdown Item 2</option>
-        <option>Dropdown Item 3</option>
-        <option>Dropdown Item 4</option>
+
+     <select>
+        <option>Choose </option>
+        <option>Dropdown 1</option>
+        <option>Dropdown 2</option>
+        <option>Dropdown 3</option>
+        <option>Dropdown 4</option>
     </select>
+
  </label>
 
   <br>
@@ -136,11 +138,11 @@
 
     <label class="dropdown-4">
     <select>
-        <option>Choose an Option Below</option>
-        <option>Dropdown Item 1</option>
-        <option>Dropdown Item 2</option>
-        <option>Dropdown Item 3</option>
-        <option>Dropdown Item 4</option>
+        <option>Choose </option>
+        <option>Dropdown 1</option>
+        <option>Dropdown 2</option>
+        <option>Dropdown 3</option>
+        <option>Dropdown 4</option>
     </select>
 </label>
 
@@ -154,11 +156,11 @@
 
 <label class="dropdown-5">
     <select>
-        <option>Choose an Option Below</option>
-        <option>Dropdown Item 1</option>
-        <option>Dropdown Item 2</option>
-        <option>Dropdown Item 3</option>
-        <option>Dropdown Item 4</option>
+        <option>Choose </option>
+        <option>Dropdown 1</option>
+        <option>Dropdown 2</option>
+        <option>Dropdown 3</option>
+        <option>Dropdown 4</option>
     </select>
 </label>
 
@@ -168,11 +170,11 @@
     </div>
 <label class="dropdown-6">
     <select>
-        <option>Choose an Option Below</option>
-        <option>Dropdown Item 1</option>
-        <option>Dropdown Item 2</option>
-        <option>Dropdown Item 3</option>
-        <option>Dropdown Item 4</option>
+        <option>Choose </option>
+        <option>Dropdown 1</option>
+        <option>Dropdown 2</option>
+        <option>Dropdown 3</option>
+        <option>Dropdown 4</option>
     </select>
 </label>
 
@@ -184,11 +186,11 @@
 
 <label class="dropdown-7">
     <select>
-        <option>Choose an Option Below</option>
-        <option>Dropdown Item 1</option>
-        <option>Dropdown Item 2</option>
-        <option>Dropdown Item 3</option>
-        <option>Dropdown Item 4</option>
+        <option>Choose </option>
+        <option>Dropdown 1</option>
+        <option>Dropdown 2</option>
+        <option>Dropdown 3</option>
+        <option>Dropdown 4</option>
     </select>
 </label>
 
@@ -208,4 +210,3 @@
     </ul>
 
 </div>
-
