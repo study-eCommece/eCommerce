@@ -12,7 +12,7 @@ insert into categories(category_id, parent_id, name, description) values(71, 41,
 
 insert into categories(category_id, parent_id, name, description) values(81, null, 'Software',  'Software');
 insert into categories(category_id, parent_id, name, description) values(91, 81, 'Antivirus',  'Antivirus software');
-insert into categories(category_id, parent_id, name, description) values(101, 81, 'Optimization software',  'Optimization software');
+insert into categories(category_id, parent_id, name, description) values(101, 81, 'Optimization soft',  'Optimization soft');
 insert into categories(category_id, parent_id, name, description) values(111, 81, 'Messangers',  'Messanger software');
 insert into categories(category_id, parent_id, name, description) values(121, 81, 'IDE',  'IDE software');
 

@@ -1,5 +1,5 @@
 article {
-
+    position: inherit;
     width: 296px;
     height: 386px;
     color: #cbcfb8;
@@ -11,6 +11,7 @@ article div ul {
     border: 1px solid #aaa;
     border-radius: 6px;
     background-color: #dcf0d0;
+    width: 200px;
 }
 
 #list5 {
