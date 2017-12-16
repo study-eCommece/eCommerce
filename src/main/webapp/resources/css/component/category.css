@@ -2,21 +2,32 @@ article {
 
     width: 296px;
     height: 386px;
+    color: #cbcfb8;
+}
 
+article div ul {
+    padding: 10px 42px 10px 10px;
+    color: #444;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+    background-color: #dcf0d0;
 }
 
 #list5 {
 
-    color:#eee;
+    color: #eee;
+    margin-top: -39px;
+    position: absolute;
 }
 
 #list5 ul {
 
     font-size: 21px;
-    color: #9292eb;;
+    color: #fdfdff;
+
 }
 
-#list5 ul li {  }
+#list5 ul li a { color: #a7aa9a }
 
 #list5 ul li ul {
 
@@ -27,7 +38,7 @@ article {
 
 #list5 ul li ul li {
 
-    color:#7275b0;
+    color: #cbcfb8; /*Изменяет цвет шрифта #7275b0*/
     height: 15px;
     margin-left: 10px;
 }

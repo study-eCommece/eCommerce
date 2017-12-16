@@ -12,6 +12,7 @@
             <div class="categoryId">${categoryId}</div>
             <ul class="category-list">
            </ul>
+
         </div>
     </article>
  </div>
