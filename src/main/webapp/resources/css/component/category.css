@@ -42,8 +42,9 @@ article {
 }
 
 .paginationCatygory {
+
     padding-left: 494px;
-    margin-top: 64px;
+    margin-top: 80px;
 }
 
 .products {
@@ -136,7 +137,7 @@ article {
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 11px;
-    margin-left: -25px;
+    margin-left: -0px;
     margin-left: -25px;
 
 }
@@ -787,3 +788,9 @@ label.dropdown-7:after {
 }
 
 /*Пример*/
+
+.form-control-1{
+
+    margin-left: 534px;
+
+}

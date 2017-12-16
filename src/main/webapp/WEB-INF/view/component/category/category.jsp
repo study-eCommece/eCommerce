@@ -5,12 +5,6 @@
 
 <div class="title">Category</div>
 
-<select class="form-control">
-    <option>at cost</option>
-    <option>by date of addition</option>
-    <option>alphabetically</option>
-</select>
-
 <br>
 <div class="main_category">
     <article>
@@ -32,6 +26,15 @@
             <a href="#" id="list" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-th-list">
             </span>List</a> <a href="#" id="grid" class="btn btn-default btn-sm"><span
                 class="glyphicon glyphicon-th"></span>Grid</a>
+  <!-- -->
+            <div class="form-control-1">
+                <select class="form-control">
+                    <option>at cost</option>
+                    <option>by date of addition</option>
+                    <option>alphabetically</option>
+                </select>
+            </div>
+  <!-- -->
         </div>
     </div>
 
@@ -43,7 +46,7 @@
                     <div class="caption">
                         <h4 class="group inner list-group-item-heading">
                             ${product.name}</h4>
-                        <p class="group inner list-group-item-text">${product.description}</p>
+                        <p class="group inner list-group-item-text"></p>
                         <div class="row">
                             <div class="col-xs-12 col-md-6">
                                 <p class="lead">$${product.price}</p>
@@ -57,7 +60,6 @@
             </div>
         </c:forEach>
     </div>
-
 </div>
 
 <div id = "Filters" >

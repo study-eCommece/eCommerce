@@ -1298,7 +1298,7 @@ p {
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 17px;
+    font-size: 23px;
     margin-left: -21px;
   }
 }
@@ -2122,7 +2122,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-lg-4 {
-    width: 33.33333333%;
+    width: 33.33333333%; /* 33 я здесь */
   }
   .col-lg-3 {
     width: 25%;
@@ -5028,7 +5028,7 @@ a.thumbnail.active {
   border-color: #337ab7;
 }
 .thumbnail .caption {
-  padding: 9px;
+  padding: 5px;
   color: #333;
 }
 .alert {

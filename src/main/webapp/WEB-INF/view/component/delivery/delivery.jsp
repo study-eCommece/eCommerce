@@ -2,7 +2,7 @@
 <div class="">
     <div class="delivery-container">
         <h1 class="title">Delivery</h1>
-        <h2 class="text-center">Information about delivery</h2>
+
 
         <div class="delivery-info">
 
