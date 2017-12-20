@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import ru.study.springMVC.model.Category;
+import ru.study.springMVC.model.Product;
 import ru.study.springMVC.service.CMIService;
 import ru.study.springMVC.service.CategoryService;
 import ru.study.springMVC.service.ProductService;
@@ -62,5 +63,15 @@ public class CategoryController {
     @ResponseBody
     public List<Category> getCategoryChildList(@RequestParam("categoryId") Long categoryId) {
         return categoryService.getChildCategoryList(categoryId);
+    }
+
+    /**
+     * Получаем список товаров по заданной категории
+     * @return список товаров
+     */
+    @RequestMapping(value = "api/productByCategory")
+    @ResponseBody
+    public List<Product> getProductByCategory(@RequestParam("categoryId") Long categoryId) {
+        return productService.getProductsList(categoryId);
     }
 }
