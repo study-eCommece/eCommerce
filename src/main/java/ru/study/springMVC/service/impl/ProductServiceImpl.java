@@ -65,7 +65,7 @@ public class ProductServiceImpl implements ProductService {
 				productList.addAll(productDao.getProductsList(category.getId()));
 			}
 		} else {
-			productDao.getProductsList(categoryId);
+			productList.addAll(productDao.getProductsList(categoryId));
 		}
 		return productList;
 	}
