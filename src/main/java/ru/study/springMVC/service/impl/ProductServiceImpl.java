@@ -61,9 +61,7 @@ public class ProductServiceImpl implements ProductService {
 
 		final List<Category> childList = categoryDao.getChildList(categoryId);
 		if (!childList.isEmpty()) {
-			for (Category category: childList) {
-				productList.addAll(productDao.getProductsList(category.getId()));
-			}
+			childList.forEach(category -> productList.addAll(productDao.getProductsList(categoryId)));
 		} else {
 			productList.addAll(productDao.getProductsList(categoryId));
 		}
