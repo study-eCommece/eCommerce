@@ -29,7 +29,8 @@ public class HolderServiceImpl implements HolderService {
 
 		if (findUser.getPass().equals(user.getPass())) {
 			System.out.println("Залогинились");
-			System.out.println("Имя -> " + findUser.getLogin());
+			System.out.println("Имя -> " + user.getLogin());
+			user.setId(findUser.getId());
 			authUser = user;
 
 			return true;

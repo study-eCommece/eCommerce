@@ -58,6 +58,20 @@ public class UserController {
 		return new ArrayList<>();
 	}
 
+	@RequestMapping(value = "/signInUser", method = RequestMethod.POST)
+	public String signInUser(@RequestParam("login") String login,
+						 @RequestParam("password") String password) {
+		final User user = new User();
+		user.setLogin(login);
+		user.setPass(password);
+
+		if (holderService.login(user)) {
+			return "redirect:profile";
+		} else {
+			return "redirect:error";
+		}
+
+	}
 
 	//TODO снести после всех тестов
 	@RequestMapping("/test1")
