@@ -1,0 +1,32 @@
+.detail-img{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    border-radius: 20px;
+    width: 250px;
+}
+
+.detail-description{
+    position: absolute;
+    top: 40%;
+    left: 55%;
+}
+
+.detail-table{
+    position: absolute;
+    top: 70%;
+    left: -1%;
+    width: 81%;
+}
+
+.detail-col{
+    position: relative;
+    left: 10%;
+    text-align: center;
+}
+
+td{
+    position: relative;
+    left: -15%;
+    text-align: center;
+}
