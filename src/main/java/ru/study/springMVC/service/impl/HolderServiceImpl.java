@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 import ru.study.springMVC.model.User;
 import ru.study.springMVC.service.HolderService;
 import ru.study.springMVC.service.UserService;
+import ru.study.springMVC.util.CryptPassword;
 
 @Service
 @Scope(value = "session", proxyMode = ScopedProxyMode.TARGET_CLASS)
@@ -15,10 +16,11 @@ public class HolderServiceImpl implements HolderService {
 	@Autowired
 	private UserService userService;
 
-	User authUser = null;
+	private User authUser = null;
 
 	@Override
 	public boolean login(User user) {
+		user.setPass(CryptPassword.encode(user.getPass()));
 
 		final User findUser = userService.findUserByLogin(user.getLogin());
 
