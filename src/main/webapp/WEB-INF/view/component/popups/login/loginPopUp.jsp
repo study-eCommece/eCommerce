@@ -16,7 +16,7 @@
     <button class="close_window">x</button>
     <h1>Sign in</h1>
     <div class="input-information">
-        <form class="input-form" action="/signInUser" method="post">
+        <form class="input-form" action="signInUser" method="post">
             <p><input type="text" class="info name_login" placeholder="Login" name="login"/></p>
             <p><input type="password" class="info password" placeholder="Password" name="password"/></p>
             <p class="remember"><%--@declare id="check"--%><input type="checkbox"/><label for="check">Remember me</label></p>
