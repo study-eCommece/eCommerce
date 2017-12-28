@@ -45,9 +45,12 @@
     <div class="secondRow">
         <div class="navbar">
             <div class="navbar-inner">
-                <form class="navbar-search pull-right" action="/search" method="GET">
+                <div class="navbar-search pull-right">
                     <input type="text" class="search-query" name="name" placeholder="Search">
-                </form>
+                    <br><br>
+                    <span class="label label-danger label-search-size" style="display: none">must be over 2 symbol</span>
+                    <span class="label label-danger label-search-engl" style="display: none">must be english languege</span>
+                </div>
             </div>
         </div>
     </div>

@@ -1,6 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-<script src="${pageContext.request.contextPath}/resources/js/component/search.js" type="text/javascript"></script>
 
 <title>Search</title>
 
