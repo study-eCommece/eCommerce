@@ -8,6 +8,7 @@
   To change this template use File | Settings | File Templates.
 --%>
 <script src="${pageContext.request.contextPath}/resources/js/component/profile.js" type="text/javascript"></script>
+<script src="${pageContext.request.contextPath}/resources/js/component/loginPopUp.js" type="text/javascript"></script>
 <jsp:include page="../registration/registrationPopUp.jsp"/>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
@@ -16,12 +17,12 @@
     <button class="close_window">x</button>
     <h1>Sign in</h1>
     <div class="input-information">
-        <form class="input-form" action="signInUser" method="post">
+        <div class="input-form">
             <p><input type="text" class="info name_login" placeholder="Login" name="login"/></p>
             <p><input type="password" class="info password" placeholder="Password" name="password"/></p>
             <p class="remember"><%--@declare id="check"--%><input type="checkbox"/><label for="check">Remember me</label></p>
             <div class="thingclass"><a href="" class="newRegistration">Haven't account yet? Please sign up</a></div>
             <button class="signI buttonSignIn">Sign in</button>
-        </form>
+        </div>
     </div>
 </div>

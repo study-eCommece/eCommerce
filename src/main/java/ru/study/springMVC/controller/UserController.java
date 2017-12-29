@@ -2,10 +2,7 @@ package ru.study.springMVC.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 import ru.study.springMVC.model.User;
 import ru.study.springMVC.service.HolderService;
 import ru.study.springMVC.service.UserService;
@@ -71,6 +68,17 @@ public class UserController {
 			return "redirect:error";
 		}
 
+	}
+
+	@RequestMapping(value = "/api/signInUserAjax", method = RequestMethod.POST)
+	@ResponseBody
+	public Boolean signInUserAjax(@RequestParam("login") String login,
+							 @RequestParam("password") String password) {
+		final User user = new User();
+		user.setLogin(login);
+		user.setPass(password);
+
+		return holderService.login(user);
 	}
 
 	//TODO снести после всех тестов
