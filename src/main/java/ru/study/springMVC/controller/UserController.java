@@ -55,21 +55,6 @@ public class UserController {
 		return new ArrayList<>();
 	}
 
-	@RequestMapping(value = "/signInUser", method = RequestMethod.POST)
-	public String signInUser(@RequestParam("login") String login,
-						 @RequestParam("password") String password) {
-		final User user = new User();
-		user.setLogin(login);
-		user.setPass(password);
-
-		if (holderService.login(user)) {
-			return "redirect:profile";
-		} else {
-			return "redirect:error";
-		}
-
-	}
-
 	@RequestMapping(value = "/api/signInUserAjax", method = RequestMethod.POST)
 	@ResponseBody
 	public Boolean signInUserAjax(@RequestParam("login") String login,
@@ -79,30 +64,5 @@ public class UserController {
 		user.setPass(password);
 
 		return holderService.login(user);
-	}
-
-	//TODO снести после всех тестов
-	@RequestMapping("/test1")
-	@ResponseBody
-	public boolean testLogin(@RequestParam("login") String login,
-							 @RequestParam("password") String password) {
-
-		final User user = new User();
-		user.setLogin(login);
-		user.setPass(password);
-
-		return holderService.login(user);
-	}
-
-	@RequestMapping("/test2")
-	@ResponseBody
-	public Boolean testgetId() {
-		return holderService.exit();
-	}
-
-	@RequestMapping("/test3")
-	@ResponseBody
-	public User testGetAuth() {
-		return holderService.getAuthUser();
 	}
 }
