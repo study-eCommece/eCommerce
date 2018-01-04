@@ -8,14 +8,13 @@ article {
 article div ul {
     padding: 10px 10px 10px 10px;
     color: #444;
-    border: 1px solid #aaa;
+ /* border: 1px solid #aaa;*/
     border-radius: 6px;
     background-color: #dcf0d0;
     width: 200px;
 }
 
 #list5 {
-
     color: #eee;
     margin-top: -39px;
     position: absolute;
@@ -35,6 +34,7 @@ article div ul {
     padding:5px 0 5px 18px;
     font-size:15px;
     color: #ac9188
+
 }
 
 #list5 ul li ul li {
@@ -45,12 +45,14 @@ article div ul {
 }
 
 #Filters {
+
     position: inherit;
     width: 211px;
     height: 571px;
     background-color: #ebe1e100;
     margin-left: 1002px;
     margin-top: -413px
+
 }
 
 .paginationCatygory {
